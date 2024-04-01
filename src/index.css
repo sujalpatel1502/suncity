@@ -2,21 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 
-.socialicons{
+.socialicons {
   font-size: 1.5rem;
   transition: 0.3s;
+  transition: color 0.3s ease-in-out;
 }
 
-.hidesidebar{
+.hidesidebar {
   left: -100%;
   transition: 0.5s !important;
 }
-.showsidebar{
+.showsidebar {
   left: 0;
   transition: 0.5s !important;
 }
 
-.socialicons:hover{
-  scale: 1.1;
+.changecol:hover .socialicons {
   color: white !important;
+}
+
+.custom-arrow {
+  color: black;
+  background: linear-gradient(
+    135deg,
+    rgba(22, 78, 99, 1) 0%,
+    rgba(22, 78, 99, 1) 26%,
+    rgba(22, 113, 147, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  z-index: 50;
+  border-radius: 25px;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.heroslider .slick-slide > div {
+  margin: 0 0px;
+}
+
+@media (max-width: 768px) {
+  .custom-arrow {
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 15px;
+  }
+
+  .heroslider .slick-next,
+  .heroslider .slick-prev {
+    height: 30px !important;
+    width: 30px !important;
+    display: flex;
+    color: black;
+    /* background: rgb(0 24 97 / 55%) !important; */
+    background: transparent !important;
+
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    z-index: 50;
+    border-radius: 100%;
+  }
+
+  .heroslider .slick-prev:before,
+  .heroslider .slick-next:before {
+    font-family: "slick";
+    font-size: 18px;
+    line-height: 1;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+.slide {
+  transition: transform 10s ease-in-out;
 }
