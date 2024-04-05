@@ -14,7 +14,7 @@ const Slider = () => {
         style={{
           ...style,
           color: "black",
-          background: "#001861",
+          background: "#87AB42",
           height: "45px",
           width: "45px",
           display: "flex",
@@ -37,7 +37,7 @@ const Slider = () => {
         style={{
           ...style,
           color: "black",
-          background: "#001861",
+          background: "#87AB42",
           height: "45px",
           width: "45px",
           display: "flex",
@@ -65,8 +65,8 @@ const Slider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -84,41 +84,84 @@ const Slider = () => {
           className={`slide h-fit md:h-full lg:h-full img-resp  ${
             activeSlideIndex === 0 ? "scale-125" : ""
           } transition-transform ease-in-out`}
-          style={{filter: 'brightness(50%)'}}
+          style={{ filter: "brightness(50%)" }}
         />
-        <div className=" flex absolute top-0 bottom-0 justify-center items-center w-[100%] flex-col">
-          <p className="text-white text-7xl font-bold">A bright idea </p>
-          <p className="text-white text-7xl font-bold"> for a greener planet</p>
+        <div
+          className="flex absolute top-0 bottom-0 justify-center items-center w-[100%] flex-col"
+          style={{
+            transform:
+              activeSlideIndex === 0 ? "translateX(0)" : "translateX(-10%)",
+            opacity: activeSlideIndex === 0 ? 1 : 0,
+            transition: "transform 1s ease, opacity 0.5s ease",
+          }}
+        >
+          <p className="text-white max-lg:text-2xl text-7xl font-bold ">
+            A bright idea{" "}
+          </p>
+          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+            {" "}
+            for a greener planet
+          </p>
         </div>
       </div>
       <div className="">
         <img
           src={
-            "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-black-solar-panel-photovoltaic-power-plant-desert-environment-sunny-weather-3d-rendering.jpg"
+            "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/concept-renewable-energy-storage-3d-rendering.jpg"
           }
           className={`slide h-fit md:h-full lg:h-full img-resp ${
             activeSlideIndex === 1 ? "scale-125" : ""
           } transition-transform ease-in-out`}
-          style={{filter: 'brightness(50%)'}}
+          style={{ filter: "brightness(50%)" }}
         />
-        <div className=" flex absolute top-0 bottom-0 justify-center items-center w-[100%] flex-col">
-          <p className="text-white text-7xl font-bold">A bright idea </p>
-          <p className="text-white text-7xl font-bold"> for a greener planet</p>
+        <div
+          className="flex absolute top-0 bottom-0 justify-center items-center w-[100%] flex-col"
+          style={{
+            transform:
+              activeSlideIndex === 1 ? "translateX(0)" : "translateX(-10%)",
+            opacity: activeSlideIndex === 1 ? 1 : 0,
+            transition: "transform 1s ease, opacity 0.5s ease",
+          }}
+        >
+          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+            Power up with the{" "}
+          </p>
+          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+            {" "}
+            sun, go solar today
+          </p>
         </div>
       </div>
       <div className="">
         <img
           src={
-            "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-black-solar-panel-photovoltaic-power-plant-desert-environment-sunny-weather-3d-rendering.jpg"
+            "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-container-battery-energy-storage-power-plant-system-accompanied-with-solar-panels-wind-turbine-system-situated-nature-with-mount-st-helens-background-3d-rendering.jpg"
           }
           className={`slide h-fit md:h-full lg:h-full img-resp ${
             activeSlideIndex === 2 ? "scale-125" : ""
           } transition-transform ease-in-out`}
-          style={{filter: 'brightness(50%)'}}
+          style={{ filter: "brightness(50%)" }}
         />
-        <div className=" flex absolute top-0 bottom-0 justify-center items-center w-[100%] flex-col">
-          <p className="text-white text-7xl font-bold">A bright idea </p>
-          <p className="text-white text-7xl font-bold"> for a greener planet</p>
+        <div
+          className=" flex absolute top-0 bottom-0 justify-center items-center w-[100%] flex-col"
+          style={{
+            transform:
+              activeSlideIndex === 2 ? "translateX(0)" : "translateX(-10%)",
+            opacity: activeSlideIndex === 2 ? 1 : 0,
+            transition: "transform 1s ease, opacity 0.5s ease",
+          }}
+        >
+          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+            Solar energy,{" "}
+          </p>
+          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+            {" "}
+            Clean,green,and
+          </p>
+          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+            {" "}
+            renewable
+          </p>
         </div>
       </div>
     </Sliderr>
