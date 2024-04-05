@@ -65,8 +65,8 @@ const Slider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
+    autoplay: false,
+    autoplaySpeed: 3000,
     cssEase: "linear",
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -76,29 +76,35 @@ const Slider = () => {
   console.log("sosaoosaoaso", activeSlideIndex);
   return (
     <Sliderr {...settings} className="overflow-hidden z-0 heroslider">
-      <div className="flex relative justify-center items-center">
+      <div className="">
         <img
           src={
-            "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-container-battery-energy-storage-power-plant-system-accompanied-with-solar-panels-wind-turbine-system-situated-nature-with-mount-st-helens-background-3d-rendering.jpg"
+            "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-black-solar-panel-photovoltaic-power-plant-desert-environment-sunny-weather-3d-rendering.jpg"
           }
-          className={`slide h-fit md:h-full lg:h-full img-resp ${
+          className={`slide h-fit md:h-full lg:h-full img-resp  ${
             activeSlideIndex === 0 ? "scale-125" : ""
           } transition-transform ease-in-out`}
+          style={{filter: 'brightness(50%)'}}
         />
         <div className=" flex absolute top-0 bottom-0 justify-center items-center w-[100%] flex-col">
-          <p className="text-white text-7xl">A bright idea </p>
-          <p className="text-white text-7xl"> for a greener planet</p>
+          <p className="text-white text-7xl font-bold">A bright idea </p>
+          <p className="text-white text-7xl font-bold"> for a greener planet</p>
         </div>
       </div>
       <div className="">
         <img
           src={
-            "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/concept-renewable-energy-storage-3d-rendering.jpg"
+            "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-black-solar-panel-photovoltaic-power-plant-desert-environment-sunny-weather-3d-rendering.jpg"
           }
           className={`slide h-fit md:h-full lg:h-full img-resp ${
             activeSlideIndex === 1 ? "scale-125" : ""
           } transition-transform ease-in-out`}
+          style={{filter: 'brightness(50%)'}}
         />
+        <div className=" flex absolute top-0 bottom-0 justify-center items-center w-[100%] flex-col">
+          <p className="text-white text-7xl font-bold">A bright idea </p>
+          <p className="text-white text-7xl font-bold"> for a greener planet</p>
+        </div>
       </div>
       <div className="">
         <img
@@ -108,7 +114,12 @@ const Slider = () => {
           className={`slide h-fit md:h-full lg:h-full img-resp ${
             activeSlideIndex === 2 ? "scale-125" : ""
           } transition-transform ease-in-out`}
+          style={{filter: 'brightness(50%)'}}
         />
+        <div className=" flex absolute top-0 bottom-0 justify-center items-center w-[100%] flex-col">
+          <p className="text-white text-7xl font-bold">A bright idea </p>
+          <p className="text-white text-7xl font-bold"> for a greener planet</p>
+        </div>
       </div>
     </Sliderr>
   );

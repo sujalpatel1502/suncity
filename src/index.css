@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Outfit", sans-serif;
+
+}
+
+p{
+  font-family: "Poppins", sans-serif;
+}
+
+.st0{opacity:0.5;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#SVGID_2_);}
+
 .socialicons {
   font-size: 1.5rem;
   transition: 0.3s;

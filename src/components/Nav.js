@@ -229,7 +229,7 @@ const Nav = () => {
             <div className='w-[1px] h-14 bg-gray-400'>
             </div>
          <div className=' flex justify-between'>
-         <div className='ml-6 rounded-lg border p-2 bg-[#87AB42] cursor-pointer' >
+         <div className='ml-6 rounded-lg border p-2 text-white bg-[#87AB42] cursor-pointer' >
          GET A QUOTE
          </div>
          

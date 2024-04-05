@@ -9,16 +9,16 @@ const AboutCompany = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="bg-[#1f1f25] h-[100vh] max-lg:h-fit flex max-lg:flex-col w-fit"
+      className="bg-[#1f1f25] h-[100vh] max-lg:h-fit flex max-lg:flex-col py-20 mb-20"
     >
-      <div className=" flex flex-1 pt-20 justify-center">
+      <div className=" flex flex-1  justify-center">
         <div className=" w-full max-lg:pl-[1rem] pl-48 h-fit">
           <span className="text-[#4aab3d] underline underline-offset-[5px] pl-1">
             ABOUT OUR COMPANY
           </span>
           <p className="mt-10 text-5xl text-white">Best Wind Solution &</p>
           <p className="text-5xl text-white">Renewable Energy</p>
-          <p className="mt-5 text-white">
+          <p className="mt-5 text-white text-sm ">
             Lorem ipsum dolor sit amet consectetur adipiscing elit eleifend
             placerat varius sociis, feugiat egestas lacinia tincidunt tempus
             urna sem ridiculus pulvinar semper morbi curae, curabitur sociosqu
@@ -26,14 +26,14 @@ const AboutCompany = () => {
           </p>
 
           <div className="mt-14 flex items-center">
-            <div className="flex flex-col w-[30vh] h-[25vh] p-7 bg-[#2a2a30] rounded-md justify-center">
-              <span className="text-[#4aab3d] text-5xl">29+</span>
-              <span className="text-white text-xl">years</span>
-              <span className="text-white text-xl">Experience</span>
+            <div className="flex flex-col w-[30vh] h-[20vh] md:h-[25vh] p-5 md:p-7 bg-[#2a2a30] rounded-md justify-center">
+              <span className="text-[#4aab3d] text-3xl md:text-5xl">29+</span>
+              <span className="text-white text-sm md:text-xl">years</span>
+              <span className="text-white text-xl mt-2 md:mt-1">Experience</span>
             </div>
-            <div className="ml-5">
-              <span className=" text-2xl text-white">Award Wining Company</span>
-              <p className="text-white">
+            <div className="ml-2 md:ml-5">
+              <span className=" text-xl md:text-2xl text-white">Award Wining Company</span>
+              <p className="text-white text-sm">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit, dui
                 facilisis vitae
               </p>
@@ -41,14 +41,14 @@ const AboutCompany = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-1 pt-20 justify-center max-lg:pb-5">
+      <div className="flex flex-1 pt-5 md:pt-20 justify-center max-lg:pb-5">
         <div className="w-fit">
-          <div className="mt-16 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-4">
+          <div className="mt-10 md:mt-16 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-4">
             {arr.map((item, index) => (
               <div
                 className={`flex flex-col w-[30vh] h-[25vh] max-lg:h-[20vh] max-lg:w-[20vh] p-7 ${
                   index == 0 || index == 3 ? "bg-[#4aab3d]" : "bg-[#2a2a30]"
-                } rounded-md justify-center items-center`}
+                } rounded-md justify-center text-center items-center my-auto`}
               >
                 {index == 0 ? (
                   <span className="text-white text-5xl">200+</span>
@@ -60,13 +60,13 @@ const AboutCompany = () => {
                   <span className="text-white text-5xl">900+</span>
                 )}
                 {index == 0 ? (
-                  <span className="text-white text-xl">Team member</span>
+                  <span className="text-white ">Team members</span>
                 ) : index == 1 ? (
-                  <span className="text-white text-xl">Winning award</span>
+                  <span className="text-white ">Winning award</span>
                 ) : index == 2 ? (
-                  <span className="text-white text-xl">Complete project</span>
+                  <span className="text-white ">Complete project</span>
                 ) : (
-                  <span className="text-white text-xl">Client review</span>
+                  <span className="text-white ">Client review</span>
                 )}
               </div>
             ))}

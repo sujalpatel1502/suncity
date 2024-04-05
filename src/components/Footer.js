@@ -31,21 +31,21 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-wrap w-[78%] max-lg:ml-0 ml-10">
-            <div className="flex flex-col basis-full md:basis-1/4 sm:p-2 p-5">
-              <div className="flex mt-5">
+            <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
+              <div className="flex mt-12">
                 <img
                   src={require("../assets/SUNCITYLOGO.png")}
                   className="mx-1 md:mx-auto w-1/2 md:w-full"
                 />
               </div>
               <div className=" flex flex-col justify-start lg:pl-4">
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Panchamrut Bunglows II, Sola, Ahmedabad, Gujarat 380060
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   needhelp@domain.com
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   999 333 0000
                 </p>
               </div>
@@ -58,19 +58,19 @@ const Footer = () => {
                 <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
               </div>
               <div className="mt-5">
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Reliability & Punctuality
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Trusted Franchise
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Warehoues Storage
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Real Time Tracking
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Transparent Pricing
                 </p>
               </div>
@@ -83,19 +83,19 @@ const Footer = () => {
                 <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
               </div>
               <div className="mt-5">
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   About
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   New Projects
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Our History
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Contact
                 </p>
-                <p className="text-[#7C858C] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Blog Posts
                 </p>
               </div>
@@ -108,10 +108,10 @@ const Footer = () => {
                 <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
               </div>
               <div className="mt-5">
-                <p className="text-[#7C858C] text-[16px] ">
+                <p className="text-[#d5d5d5] text-[16px] ">
                   Subscribe our newsletter to get our
                 </p>
-                <p className="text-[#7C858C] text-[16px] ">
+                <p className="text-[#d5d5d5] text-[16px] ">
                   latest update & news
                 </p>
 

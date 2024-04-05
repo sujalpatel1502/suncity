@@ -5,6 +5,7 @@ import AboutCompany from "./components/AboutCompany";
 import Footer from "./components/Footer";
 import FooterBanner from "./components/FooterBanner";
 import Slider from "./components/Slider";
+import Products from "./components/Products";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Nav />
       <Slider />
       <AboutCompany />
+     <Products/>
       <Footer />
       <FooterBanner />
     </div>
