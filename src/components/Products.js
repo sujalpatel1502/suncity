@@ -115,7 +115,7 @@ const Products = () => {
                 <span className="ml-2"> Battery & Pannels</span>
               </p>
               <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
+                <span className="text-logogreen my-auto">
                   <FaCheckCircle />
                 </span>{" "}
                 <span className="ml-2"> Wind Customize</span>
@@ -163,8 +163,6 @@ const Products = () => {
           <img src={grass} />
         </div>
       </div>
-
-      <div className=" m-48">hello</div>
     </>
   );
 };

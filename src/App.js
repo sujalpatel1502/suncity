@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import FooterBanner from "./components/FooterBanner";
 import Slider from "./components/Slider";
 import Products from "./components/Products";
+import Map from "./components/Map";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       <Nav />
       <Slider />
       <AboutCompany />
-     <Products/>
+      <Products />
+      <Map />
       <Footer />
       <FooterBanner />
     </div>
