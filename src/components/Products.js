@@ -158,7 +158,7 @@ const Products = () => {
             />
           </div>
         </div>
-        <div className="mt-[12px]">
+        <div className="mt-[12px] max-lg:mt-[40px]">
           {" "}
           <img src={grass} />
         </div>

@@ -7,6 +7,8 @@ import FooterBanner from "./components/FooterBanner";
 import Slider from "./components/Slider";
 import Products from "./components/Products";
 import Map from "./components/Map";
+import Benifits from "./components/Benifits";
+import Performer from "./components/Performer";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <AboutCompany />
       <Products />
       <Map />
+      <Benifits />
+      <Performer />
       <Footer />
       <FooterBanner />
     </div>
