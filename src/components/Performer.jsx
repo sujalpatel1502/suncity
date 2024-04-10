@@ -112,17 +112,19 @@ const Performer = () => {
     <div className="h-[90vh] flex justify-center">
       <div className="w-[78%]">
         <div className="text-center text-3xl">
-          <span>Top Performers of the last month</span>
+          <p className="text-[40px] max-lg:text-[20px] text-[#87AB42] font-[700] max-lg:font-[350]">
+            Top Performers of the last month
+          </p>
         </div>
-        <div className="mt-10 md:flex lg:flex justify-center items-center ">
+        <div className="mt-10 md:flex lg:flex justify-center items-center">
           <Slider
             {...settings}
-            className="md:h-[70vh] lg:h-[70vh] md:w-[70vh] lg:w-[70vh]"
+            className="md:h-[70vh] lg:h-[70vh] md:w-[70vh] lg:w-[62vh]"
           >
             {data.map((item, index) => (
-              <div className=" text-black  relative flex  my-2 ">
+              <div className=" text-black  relative flex  my-2">
                 <div className="h-36 rounded-t-xl gradientbg flex justify-center items-center shadow lg:w-[60vh]">
-                  <div className="flex  ">
+                  <div className="flex">
                     <img
                       alt="Review Image"
                       class="mt-[130px] md:mt-[150px] rounded-full object-cover h-1/2 w-1/2 md:h-32 md:w-32 lg:h-32 lg:w-32  left-0 right-0 mx-auto"

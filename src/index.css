@@ -79,6 +79,7 @@ p {
   margin: 0 10px;
 }
 .heroslider .slick-slide > div {
+  /* margin-top: -210px !important; */
   margin: 0 0px;
 }
 
@@ -341,9 +342,9 @@ body {
   ); */
 }
 
-@media (min-width: 968px) {
+@media (max-width: 968px) {
   .slick-next {
-    right: 20px !important;
+    /* right: 20px !important; */
   }
 }
 

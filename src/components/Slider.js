@@ -76,7 +76,7 @@ const Slider = () => {
   console.log("sosaoosaoaso", activeSlideIndex);
   return (
     <Sliderr {...settings} className="overflow-hidden z-0 heroslider">
-      <div className="">
+      <div className="max-lg:mt-0 mt-[-210px]">
         <img
           src={
             "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-black-solar-panel-photovoltaic-power-plant-desert-environment-sunny-weather-3d-rendering.jpg"
@@ -104,7 +104,7 @@ const Slider = () => {
           </p>
         </div>
       </div>
-      <div className="">
+      <div className="max-lg:mt-0 mt-[-210px]">
         <img
           src={
             "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/concept-renewable-energy-storage-3d-rendering.jpg"
@@ -132,7 +132,7 @@ const Slider = () => {
           </p>
         </div>
       </div>
-      <div className="">
+      <div className="max-lg:mt-0 mt-[-210px]">
         <img
           src={
             "https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-container-battery-energy-storage-power-plant-system-accompanied-with-solar-panels-wind-turbine-system-situated-nature-with-mount-st-helens-background-3d-rendering.jpg"

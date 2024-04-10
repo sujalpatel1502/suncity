@@ -32,13 +32,13 @@ const Footer = () => {
           </div>
           <div className="flex flex-wrap w-[78%] max-lg:ml-0 ml-10">
             <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
-              <div className="flex mt-12">
+              <div className="flex mt-12 bg-white rounded-2xl p-[10px]">
                 <img
                   src={require("../assets/SUNCITYLOGO.png")}
-                  className="mx-1 md:mx-auto w-1/2 md:w-full"
+                  className="mx-1 md:mx-auto sm:w-1/2 md:w-full"
                 />
               </div>
-              <div className=" flex flex-col justify-start lg:pl-4">
+              <div className=" flex flex-col justify-start lg:pl-4 mt-4">
                 <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                   Panchamrut Bunglows II, Sola, Ahmedabad, Gujarat 380060
                 </p>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import { FaCheck } from "react-icons/fa6";
+import { FaCircleCheck } from "react-icons/fa6";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -25,7 +26,7 @@ const Benifits = () => {
         <div className="h-fit w-fit flex flex-1 justify-center">
           <Sliderr
             {...settings}
-            className="overflow-hidden z-0 heroslider h-[70vh] w-[70vh] max-lg:h-[40vh] max-lg:w-[40vh]  border border-[#87AB42] rounded-2xl"
+            className="overflow-hidden z-0 h-[70vh] w-[70vh] max-lg:h-[40vh] max-lg:w-[40vh]  border border-[#87AB42] rounded-2xl"
           >
             <div className=" mt-12">
               <img
@@ -43,7 +44,7 @@ const Benifits = () => {
         </div>
         <div className="flex-1 rounded-2xl px-1 md:px-5">
           <div className="flex-1  h-fit w-fit px-1 md:px-5">
-            <div className=" pb-5 font-[500] text-4xl">
+            <div className=" pb-5 font-[600] text-[2rem]">
               Benefits of applying our solar products in your business or in
               your system
             </div>
@@ -51,83 +52,107 @@ const Benifits = () => {
             <div className="  pb-3 pr-3">
               <ul>
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     Saving in electricity bill of your plant or home.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     Reward on excess generation.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     Return on investment (ROI) 4 to 5 years.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">Low maintenance.</li>
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">Low maintenance.</li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     Long life 30 to 35 years.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     Environment friendly green energy without pollution.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     Govt. supports subsidy / accelerated depreciation.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     You can add value to home.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     You need more power back up with less electricity bill.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     You can save yourself from electricity crisis.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     You can take advantage of state & centre govt. policies.
                   </li>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <FaCheck color="ff6000" size={20} />
-                  <li className="mt-1 text-[#4aab3d]">
+                  <div>
+                    <FaCircleCheck color="#4aab3d" size={20} />
+                  </div>
+                  <li className="mt-1 text-[#3f3f3f]">
                     you can save mother earth and environment for upcoming
                     generations.
                   </li>

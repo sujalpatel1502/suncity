@@ -9,7 +9,7 @@ const FooterBanner = () => {
           <div className="pl-4">
             <p className=" text-[#7C858C]"> © Copyright 2023 by Suncity</p>
           </div>
-          <div className="flex h-[10vh] items-center gap-4">
+          <div className="flex h-[10vh] items-center gap-4 ">
             <div className=" transition duration-500 ease-in-out bg-[#313140] w-10 h-10 flex items-center justify-center hover:bg-[#87AB42] transform hover:mb-2 cursor-pointer hover:-translate-y-1 hover:scale-110 changecol">
               <FaFacebook className="socialicons" size={18} color="#808080" />
             </div>

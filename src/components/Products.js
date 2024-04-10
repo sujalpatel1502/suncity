@@ -14,9 +14,11 @@ const Products = () => {
             <span className=" text-logogreen underline underline-offset-[5px] pl-1 ">
               OUR Services
             </span>
-            <h2 className="mt-5 text-5xl font-bold">
+
+            <p className="text-[40px] max-lg:text-[20px] text-[#87AB42] font-[700] max-lg:font-[350]">
               We Provide Best Services
-            </h2>
+            </p>
+
             <p className="text-4xl text-logoblue mt-2">For Solar Pannels</p>
           </div>
         </div>
