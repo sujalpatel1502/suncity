@@ -109,10 +109,10 @@ const Performer = () => {
   };
 
   return (
-    <div className="h-[90vh] flex justify-center">
+    <div className="h-[90vh] flex justify-center mt-10">
       <div className="w-[78%]">
         <div className="text-center text-3xl">
-          <p className="text-[40px] max-lg:text-[20px] text-[#87AB42] font-[700] max-lg:font-[350]">
+          <p className="mt-2 text-3xl font-semibold md:text-5xl text-[#87AB42]  ">
             Top Performers of the last month
           </p>
         </div>

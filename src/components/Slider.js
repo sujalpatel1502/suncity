@@ -95,10 +95,10 @@ const Slider = () => {
             transition: "transform 1s ease, opacity 0.5s ease",
           }}
         >
-          <p className="text-white max-lg:text-2xl text-7xl font-bold ">
+          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
             A bright idea{" "}
           </p>
-          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
             {" "}
             for a greener planet
           </p>
@@ -123,10 +123,10 @@ const Slider = () => {
             transition: "transform 1s ease, opacity 0.5s ease",
           }}
         >
-          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
             Power up with the{" "}
           </p>
-          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
             {" "}
             sun, go solar today
           </p>
@@ -151,14 +151,14 @@ const Slider = () => {
             transition: "transform 1s ease, opacity 0.5s ease",
           }}
         >
-          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
             Solar energy,{" "}
           </p>
-          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
             {" "}
             Clean,green,and
           </p>
-          <p className="text-white max-lg:text-2xl text-7xl font-bold">
+          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
             {" "}
             renewable
           </p>

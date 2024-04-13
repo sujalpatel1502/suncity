@@ -34,18 +34,18 @@ const Map = () => {
   //   setSelectNum(index);
   // };
   return (
-    <div className="h-[150vh] max-lg:h-[95vh] w-full flex flex-col justify-center items-center ">
-      <div className="flex flex-col justify-center items-center max-lg:items-start h-[30vh]  max-lg:w-fit max-lg:h-fit">
+    <div className="h-[150vh] max-lg:h-[95vh] w-full flex flex-col justify-center items-center mt-10 ">
+      <div className="px-5 pt-10 flex flex-col justify-center items-center max-lg:items-start h-[30vh]  max-lg:w-fit max-lg:h-fit">
         <p
-          className="text-[80px] max-lg:text-[40px] text-white font-[700] max-lg:font-[350]"
+          className="text-3xl  md:text-5xl  text-white font-[700] "
           style={{ textShadow: "0px 0px 2px rgba(26, 26, 26, 0.85)" }}
         >
           INTERNATIONAL PRESENCE
         </p>
-        <p className="text-[40px] max-lg:text-[20px] text-[#87AB42] font-[700] max-lg:font-[350]">
+        <p className="text-xl md:text-2xl mt-2 font-semibold">
           OUR REACH AROUND THE GLOBE
         </p>
-        <p className="text-[#87AB42] mt-5 text-[20px]">
+        <p className="text-sm md:text-xl mt-2 ">
           We have served both, Big Giants and Startups.
         </p>
       </div>

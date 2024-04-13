@@ -22,8 +22,8 @@ const Benifits = () => {
   };
   return (
     <div className="h-[80vh] flex justify-center hfitt">
-      <div className="w-[78%] flex hcoll">
-        <div className="h-fit w-fit flex flex-1 justify-center">
+      <div className="w-full justify-center md:w-[78%] flex hcoll">
+        <div className="h-fit w-full flex flex-1 justify-center">
           <Sliderr
             {...settings}
             className="overflow-hidden z-0 h-[70vh] w-[70vh] max-lg:h-[40vh] max-lg:w-[40vh]  border border-[#87AB42] rounded-2xl"
@@ -42,11 +42,10 @@ const Benifits = () => {
             </div>
           </Sliderr>
         </div>
-        <div className="flex-1 rounded-2xl px-1 md:px-5">
+        <div className="flex-1 rounded-2xl mt-5 px-4 md:px-5">
           <div className="flex-1  h-fit w-fit px-1 md:px-5">
-            <div className=" pb-5 font-[600] text-[2rem]">
-              Benefits of applying our solar products in your business or in
-              your system
+            <div className=" pb-5 mt-2 text-3xl font-semibold md:text-5xl">
+              Benefits of applying 
             </div>
 
             <div className="  pb-3 pr-3">

@@ -5,10 +5,14 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa";
-
+import { useLocation } from "react-router-dom";
 import { GiQueenCrown } from "react-icons/gi";
 
 const Footer = () => {
+
+  const location = useLocation();
+
+
   return (
     <>
       <div
@@ -20,16 +24,20 @@ const Footer = () => {
         className="h-[70vh] max-lg:h-fit flex max-lg:flex-col relative"
       >
         <div className="flex flex-wrap max-lg:justify-start justify-center items-center bg-gray-800 bg-opacity-75 w-full ">
-          <div className="max-lg:hidden  absolute flex top-[-115px] bg-[#4aab3d] h-[30vh] w-[78%] ml-10 justify-between items-center p-16">
-            <div className="">
-              <p className="text-white text-4xl">Fastest & secure way to get</p>
-              <p className="text-white text-4xl">clean, safe and renewable</p>
-              <p className="text-white text-4xl">energy</p>
+          {location.pathname == "/" && (
+            <div className="max-lg:hidden  absolute flex top-[-115px] bg-[#4aab3d] h-[30vh] w-[78%] ml-10 justify-between items-center p-16">
+              <div className="">
+                <p className="text-white text-4xl">
+                  Fastest & secure way to get
+                </p>
+                <p className="text-white text-4xl">clean, safe and renewable</p>
+                <p className="text-white text-4xl">energy</p>
+              </div>
+              <div className="ml-6 rounded-lg   bg-[#0b3b5e] cursor-pointer text-white p-6">
+                GET A FREE QUOTE
+              </div>
             </div>
-            <div className="ml-6 rounded-lg   bg-[#0b3b5e] cursor-pointer text-white p-6">
-              GET A FREE QUOTE
-            </div>
-          </div>
+          )}
           <div className="flex flex-wrap w-[78%] max-lg:ml-0 ml-10">
             <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
               <div className="flex mt-12 bg-white rounded-2xl p-[10px]">
