@@ -5,13 +5,20 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa";
-
+import { useLocation } from "react-router-dom";
 import { GiQueenCrown } from "react-icons/gi";
 import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+<<<<<<< HEAD
   const location = useLocation();
   console.log("locationnnnnn", location);
+=======
+
+  const location = useLocation();
+
+
+>>>>>>> fb356085983915a113eb7e7ec0bbae059484f55c
   return (
     <>
       <div

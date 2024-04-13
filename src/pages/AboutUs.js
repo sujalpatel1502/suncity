@@ -1,5 +1,4 @@
 import React from "react";
-// https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/concept-renewable-energy-storage-3d-rendering.jpg
 const AboutUs = () => {
   return (
     <>
