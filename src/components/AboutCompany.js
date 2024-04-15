@@ -16,8 +16,12 @@ const AboutCompany = () => {
           <span className="text-[#4aab3d] lg:text-2xl xl:text-sm underline underline-offset-[5px] pl-1">
             ABOUT OUR COMPANY
           </span>
-          <p className="mt-8 md:mt-10 text-white text-3xl font-semibold md:text-5xl md:font-bold">Best Wind Solution &</p>
-          <p className="text-white text-3xl font-semibold md:text-5xl md:font-bold">Renewable Energy</p>
+          <p className="mt-8 md:mt-10 text-white text-3xl font-semibold md:text-5xl md:font-bold">
+            Best Wind Solution &
+          </p>
+          <p className="text-white text-3xl font-semibold md:text-5xl md:font-bold">
+            Renewable Energy
+          </p>
           <p className="mt-2 text-white text-sm ">
             Lorem ipsum dolor sit amet consectetur adipiscing elit eleifend
             placerat varius sociis, feugiat egestas lacinia tincidunt tempus
@@ -29,10 +33,14 @@ const AboutCompany = () => {
             <div className="flex flex-col w-[30vh] h-[20vh] md:h-[25vh] p-5 md:p-7 bg-[#2a2a30] rounded-md justify-center">
               <span className="text-[#4aab3d] text-3xl md:text-5xl">29+</span>
               <span className="text-white text-sm md:text-xl">years</span>
-              <span className="text-white text-xl mt-2 md:mt-1">Experience</span>
+              <span className="text-white text-xl mt-2 md:mt-1">
+                Experience
+              </span>
             </div>
             <div className="ml-2 md:ml-5">
-              <span className=" text-xl md:text-2xl text-white">Award Wining Company</span>
+              <span className=" text-xl md:text-2xl text-white">
+                Award Wining Company
+              </span>
               <p className="text-white text-sm">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit, dui
                 facilisis vitae
@@ -60,13 +68,21 @@ const AboutCompany = () => {
                   <span className="text-white text-3xl md:text-5xl">900+</span>
                 )}
                 {index == 0 ? (
-                  <span className="text-white text-sm md:text-xl ">Team members</span>
+                  <span className="text-white text-sm md:text-xl ">
+                    Team members
+                  </span>
                 ) : index == 1 ? (
-                  <span className="text-white text-sm md:text-xl">Winning award</span>
+                  <span className="text-white text-sm md:text-xl">
+                    Winning award
+                  </span>
                 ) : index == 2 ? (
-                  <span className="text-white text-sm md:text-xl">Complete project</span>
+                  <span className="text-white text-sm md:text-xl">
+                    Complete project
+                  </span>
                 ) : (
-                  <span className="text-white text-sm md:text-xl">Client review</span>
+                  <span className="text-white text-sm md:text-xl">
+                    Client review
+                  </span>
                 )}
               </div>
             ))}

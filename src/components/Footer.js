@@ -7,7 +7,6 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 import { GiQueenCrown } from "react-icons/gi";
-import { useLocation } from "react-router-dom";
 
 const Footer = () => {
   const location = useLocation();

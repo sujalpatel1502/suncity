@@ -8,7 +8,7 @@ const Nav = () => {
     {
       key: "1",
       label: (
-        <Link rel="noopener noreferrer" to="/sell-old-mobile">
+        <Link rel="noopener noreferrer" to="/about-us">
           About Us
         </Link>
       ),
@@ -63,8 +63,8 @@ const Nav = () => {
     {
       key: "1",
       label: (
-        <Link rel="noopener noreferrer" to="/sell-old-mobile">
-          Service Grid 1
+        <Link rel="noopener noreferrer" to="/services-solarpanels">
+          SOLAR PANELS
         </Link>
       ),
     },
@@ -72,8 +72,8 @@ const Nav = () => {
       key: "2",
       label: (
         // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Service Grid 2
+        <Link rel="noopener noreferrer" to="/services-solarwaterheater">
+          SOLAR WATER HEATERS
         </Link>
       ),
     },
@@ -81,8 +81,8 @@ const Nav = () => {
       key: "3",
       label: (
         // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Service Carousel 1
+        <Link rel="noopener noreferrer" to="/services-solarpumping">
+          SOLAR WATER PUMPING SYSTEMS
         </Link>
       ),
     },
@@ -90,17 +90,8 @@ const Nav = () => {
       key: "4",
       label: (
         // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Service Carousel 2
-        </Link>
-      ),
-    },
-    {
-      key: "5",
-      label: (
-        // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Service Details
+        <Link rel="noopener noreferrer" to="/services-solarstreet">
+          SOLAR STREET LIGHTS
         </Link>
       ),
     },
@@ -109,26 +100,8 @@ const Nav = () => {
     {
       key: "1",
       label: (
-        <Link rel="noopener noreferrer" to="/sell-old-mobile">
-          Portfolio Grid
-        </Link>
-      ),
-    },
-    {
-      key: "2",
-      label: (
-        // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Portfolio Carousel
-        </Link>
-      ),
-    },
-    {
-      key: "3",
-      label: (
-        // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Portfolio Details
+        <Link rel="noopener noreferrer" to="/legal">
+          COMPLIANCE
         </Link>
       ),
     },
@@ -211,25 +184,24 @@ const Nav = () => {
                 onClick={(e) => e.preventDefault()}
               >
                 <p className=" hover:text-[#87AB42] text-sm font-medium">
-                  Portfolio
+                  Legal
                 </p>
               </a>
             </Dropdown>
           </a>
 
           <a
-            href="#"
-            className=" hover:text-[#87AB42] rounded-md px-3 py-2 text-sm font-medium"
+            href="/"
+            className=" font-bold  flex items-center space-x-1 cursor-pointer"
+            onClick={(e) => e.preventDefault()}
           >
-            <Dropdown menu={{ items: NewsItems }} placement="bottom" arrow>
-              <a
-                className="ml-5 font-bold  flex items-center space-x-1 "
-                onClick={(e) => e.preventDefault()}
-              >
-                <p className="hover:text-[#87AB42] text-sm font-medium">News</p>
-              </a>
-            </Dropdown>
+            <Link to="/gallery">
+              <p className="hover:text-[#87AB42] text-sm font-medium">
+                Gallery
+              </p>
+            </Link>
           </a>
+
           <a
             href="#"
             className=" hover:text-[#87AB42] rounded-md px-3 py-2 text-sm font-medium"

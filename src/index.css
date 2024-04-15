@@ -394,3 +394,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
 }
+
+.mygallary img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}

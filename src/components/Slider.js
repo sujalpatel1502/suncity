@@ -14,7 +14,7 @@ const Slider = () => {
         style={{
           ...style,
           color: "black",
-          background: "#87AB42",
+          background: "rgb(242 122 41)",
           height: "45px",
           width: "45px",
           display: "flex",
@@ -37,7 +37,7 @@ const Slider = () => {
         style={{
           ...style,
           color: "black",
-          background: "#87AB42",
+          background: "rgb(242 122 41)",
           height: "45px",
           width: "45px",
           display: "flex",

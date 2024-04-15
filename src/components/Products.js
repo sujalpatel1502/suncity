@@ -8,7 +8,7 @@ import windmill from "../assets/images/windmill.svg";
 const Products = () => {
   return (
     <>
-      <div className="container flex flex-col justify-center items-center mt-10">
+      <div className="max-lg:container flex flex-col justify-center items-center mt-10">
         <div className="flex flex-col text-center  w-full md:w-[80%]  px-2 md:px-10">
           <div className="basis-1">
             <span className=" text-logogreen underline underline-offset-[5px] pl-1 ">
