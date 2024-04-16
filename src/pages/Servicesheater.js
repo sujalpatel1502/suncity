@@ -26,7 +26,7 @@ const Servicesheater = () => {
       </div>
 
       <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full">
-        <div className="w-[78%] flex-col p-4">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar Water Heaters
           </div>
@@ -67,13 +67,13 @@ const Servicesheater = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[42vh] w-full">
-        <div className="w-[78%] flex-col pl-3">
-          <div className=" pb-5  text-2xl font-semibold md:text-3xl justify-center">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-6">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+          <div className="text-2xl font-semibold md:text-3xl justify-center">
             Why choose us?
           </div>
 
-          <div className="flex-1 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5">
+          <div className="flex-1 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 mt-0 md:mt-4 lg:mt-4">
             <div className="flex max-lg:flex-col gap-2">
               <MdGppGood size={50} className="mt-8" color="#4aab3d" />
 
@@ -132,18 +132,18 @@ const Servicesheater = () => {
       </div>
 
       <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-fit w-full pb-10 mt-7 md:mt-0 lg:mt-0">
-        <div className="w-[78%] flex-col pl-3">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
           <div className=" pb-5 text-2xl font-semibold md:text-3xl justify-center">
             Applications
           </div>
-          <p className="text-[17.24px] leading-[1.4]">
+          <p className="text-[17.24px] leading-[1.4] mt-2">
             The main use of this technology is in residential buildings where
             the demand for hot water has a large impact on energy bills. This
             generally means a situation with a large family, or a situation in
             which the hot water demand is excessive due to frequent laundry
             washing.
           </p>
-          <p className="text-[17.24px] leading-[1.4] mt-4">
+          <p className="text-[17.24px] leading-[1.4] mt-2">
             Commercial applications include laundromats, car washes, military
             laundry facilities and eating establishments.
           </p>

@@ -86,7 +86,7 @@ const Performer = () => {
     dots: true,
     // infinite: true,
     // speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -109,22 +109,18 @@ const Performer = () => {
   };
 
   return (
-    <div className="h-[90vh] flex justify-center mt-10">
-      <div className="w-[78%]">
-        <div className="text-center text-3xl">
-          <p className="mt-2 text-3xl font-semibold md:text-5xl text-[#87AB42]  ">
-            Top Performers of the last month
-          </p>
-        </div>
-        <div className="mt-10 md:flex lg:flex justify-center items-center">
-          <Slider
-            {...settings}
-            className="md:h-[70vh] lg:h-[70vh] md:w-[70vh] lg:w-[62vh]"
-          >
+    <div className="max-lg:h-[70vh] h-[650px] flex justify-center mb-28">
+      <div className="w-[78%] max-w-[1124px]">
+        <p className=" text-3xl font-semibold md:text-5xl text-center">
+          Testimonials
+        </p>
+
+        <div className="mt-10">
+          <Slider {...settings}>
             {data.map((item, index) => (
-              <div className=" text-black  relative flex  my-2">
-                <div className="h-36 rounded-t-xl gradientbg flex justify-center items-center shadow lg:w-[60vh]">
-                  <div className="flex">
+              <div className=" text-black  relative flex flex-wrap my-2">
+                <div className="h-36 rounded-t-xl gradientbg flex justify-center items-center shadow">
+                  <div className="flex  ">
                     <img
                       alt="Review Image"
                       class="mt-[130px] md:mt-[150px] rounded-full object-cover h-1/2 w-1/2 md:h-32 md:w-32 lg:h-32 lg:w-32  left-0 right-0 mx-auto"
@@ -134,10 +130,10 @@ const Performer = () => {
                     />
                   </div>
                 </div>
-                <div className="rounded-b-xl flex justify-center text-center p-5 shadow h-fit lg:h-[40vh] max-lg:h-fit w-full lg:w-[60vh]">
+                <div className="rounded-b-xl flex justify-center text-center p-5 shadow h-fit lg:h-[300px] max-lg:h-fit w-full">
                   <div className="mt-16 max-lg:mt-20 flex flex-col justify-center items-center h-fit">
                     <p className="text-2xl font-semibold">{item.name}</p>
-                    <hr className="w-72 h-[1px] mt-2" />
+                    <hr className="w-64 h-[1px] mt-2" />
                     <p className="mt-4">{item.review}</p>
                   </div>
                 </div>

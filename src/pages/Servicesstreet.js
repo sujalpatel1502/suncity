@@ -25,8 +25,8 @@ const Servicesstreet = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full ">
-        <div className="w-[78%] flex-col p-4">
+      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[32vh] w-full ">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar Street Lights
           </div>
@@ -50,12 +50,12 @@ const Servicesstreet = () => {
         </div>
       </div>
       <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[80vh] w-full ">
-        <div className="w-[78%] flex-col p-4">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
           <div className="pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar street lights consist of 4 main parts:
           </div>
           <div className="flex gap-5 max-lg:flex-col mt-5">
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-80 lg:w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
               <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img
                   src="https://www.suncitysolar.in/images/psolar-panels.png"
@@ -74,7 +74,7 @@ const Servicesstreet = () => {
               </div>
             </div>
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-80 lg:w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
               <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img
                   src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
@@ -94,7 +94,7 @@ const Servicesstreet = () => {
               </div>
             </div>
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-80 lg:w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
               <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img
                   src="https://www.suncitysolar.in/images/psolar-panels.png"
@@ -113,7 +113,7 @@ const Servicesstreet = () => {
               </div>
             </div>
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-80 lg:w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
               <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img
                   src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
@@ -134,12 +134,11 @@ const Servicesstreet = () => {
         </div>
       </div>
 
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[42vh] w-full ">
-        <div className="w-[78%] flex-col pl-3">
-          <div className=" pb-5  text-2xl font-semibold md:text-3xl justify-center">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-8 md:mt-0 lg:mt-0">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+          <div className="text-2xl font-semibold md:text-3xl justify-center">
             Why choose us?
           </div>
-
           <div className="flex-1 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5">
             <div className="flex max-lg:flex-col gap-2">
               <MdGppGood size={50} className="mt-8" color="#4aab3d" />
@@ -197,8 +196,8 @@ const Servicesstreet = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[35vh] w-full ">
-        <div className="w-[78%] flex-col pl-3">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full mt-8 md:mt-0 lg:mt-0 mb-8 md:mb-0 lg:mb-0">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
           <div className=" pb-5  text-2xl font-semibold md:text-3xl justify-center">
             Advantages
           </div>

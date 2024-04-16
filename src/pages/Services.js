@@ -25,13 +25,13 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full">
-        <div className="w-[78%] flex-col p-4">
-          <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
+      <div className="flex justify-center mt-8 h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full">
+        <div className="w-[78%] flex-col p-0 md:pl-5 lg:pl-5">
+          <div className=" text-2xl font-semibold md:text-3xl justify-center">
             Solar Panels
           </div>
 
-          <p className="text-[17.24px] leading-[1.8]">
+          <p className="text-[17.24px] leading-[1.8] mt-3">
             Photovoltaic solar panels absorb sunlight as a source of energy to
             generate electricity. A photovoltaic (PV) module is a packaged,
             connected assembly of typically 6x10 photovoltaic solar cells.
@@ -39,8 +39,8 @@ const Services = () => {
             photovoltaic system that generates and supplies solar electricity in
             commercial and residential applications.
           </p>
-          <div className="mt-7 ">
-            <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
+          <div className="mt-7">
+            <div className="mt-2 text-2xl font-semibold md:text-3xl justify-center">
               Why choose us?
             </div>
 
@@ -102,12 +102,12 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full ">
-        <div className="w-[78%] flex-col pl-3">
-          <div className=" pb-5 text-2xl font-semibold md:text-3xl justify-center">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full mt-8 md:mt-0 lg:mt-0 mb-8">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+          <div className="pb-3 text-2xl font-semibold md:text-3xl justify-center">
             Maintenance
           </div>
-          <p className="text-[17.24px] leading-[1.4]">
+          <p className="text-[17.24px] leading-[1.4] mt-3">
             Solar panel conversion efficiency, typically in the 20% range, is
             reduced by dust, grime, pollen, and other particulates that
             accumulate on the solar panel.

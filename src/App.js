@@ -25,7 +25,7 @@ const Layout = () => {
   return (
     <>
       <HeadBanner />
-      <hr />
+
       <Nav />
 
       <Outlet />

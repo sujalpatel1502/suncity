@@ -19,94 +19,98 @@ const Footer = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
-        className="h-[70vh] max-lg:h-fit flex max-lg:flex-col relative"
+        className="h-[700px] max-lg:h-fit flex max-lg:flex-col relative"
       >
         <div className="flex flex-wrap max-lg:justify-start justify-center items-center bg-gray-800 bg-opacity-75 w-full ">
-          {location.pathname == "/" && (
-            <div className="max-lg:hidden  absolute flex top-[-115px] bg-[#4aab3d] h-[30vh] w-[78%] ml-10 justify-between items-center p-16">
-              <div className="">
-                <p className="text-white text-4xl">
-                  Fastest & secure way to get
-                </p>
-                <p className="text-white text-4xl">clean, safe and renewable</p>
-                <p className="text-white text-4xl">energy</p>
+          <div className=" max-w-[1224px] flex flex-col justify-center items-center">
+            {location.pathname == "/" && (
+              <div className="max-lg:hidden  absolute flex top-[-115px] bg-[#4aab3d] h-[200px] w-[1100px] max-w-[1224px] justify-between items-center p-16">
+                <div className="">
+                  <p className="text-white text-4xl">
+                    Fastest & secure way to get
+                  </p>
+                  <p className="text-white text-4xl">
+                    clean, safe and renewable
+                  </p>
+                  <p className="text-white text-4xl">energy</p>
+                </div>
+                <div className="ml-6 rounded-lg   bg-[#0b3b5e] cursor-pointer text-white p-6">
+                  GET A FREE QUOTE
+                </div>
               </div>
-              <div className="ml-6 rounded-lg   bg-[#0b3b5e] cursor-pointer text-white p-6">
-                GET A FREE QUOTE
+            )}
+            <div className="flex flex-wrap w-[78%] max-w-[1224px] max-lg:justify-start justify-evenly mt-16">
+              <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
+                <div className="flex mt-12 bg-white rounded-2xl p-[10px]">
+                  <img
+                    src={require("../assets/SUNCITYLOGO.png")}
+                    className="mx-1 md:mx-auto sm:w-1/2 md:w-full"
+                  />
+                </div>
+                <div className=" flex flex-col justify-start lg:pl-4 mt-4">
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    Panchamrut Bunglows II, Sola, Ahmedabad, Gujarat 380060
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    needhelp@domain.com
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    999 333 0000
+                  </p>
+                </div>
+              </div>
+              <div className="basis-full md:basis-1/4 sm:p-2 p-5 flex flex-col items-start md:items-center lg:items-center justify-center">
+                <div className="flex flex-row items-center">
+                  <h4 className="text-[24px] font-semibold mt-14 text-white ">
+                    Service
+                  </h4>
+                  <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
+                </div>
+                <div className="mt-5  ml-0 md:ml-10 lg:ml-10">
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    Reliability & Punctuality
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    Trusted Franchise
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    Warehoues Storage
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    Real Time Tracking
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    Transparent Pricing
+                  </p>
+                </div>
+              </div>
+              <div className="basis-1/4 md:basis-1/4 sm:p-2 p-5 flex flex-col items-center justify-center ">
+                <div className="flex flex-row items-center">
+                  <h4 className="text-[24px] font-semibold mt-10 text-white">
+                    Pages
+                  </h4>
+                  <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-10 ml-8"></div>
+                </div>
+                <div className="mt-5 mr-6">
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    About
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    New Projects
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    Our History
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    Contact
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
+                    Blog Posts
+                  </p>
+                </div>
               </div>
             </div>
-          )}
-          <div className="flex flex-wrap w-[78%] max-lg:ml-0 ml-10">
-            <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
-              <div className="flex mt-12 bg-white rounded-2xl p-[10px]">
-                <img
-                  src={require("../assets/SUNCITYLOGO.png")}
-                  className="mx-1 md:mx-auto sm:w-1/2 md:w-full"
-                />
-              </div>
-              <div className=" flex flex-col justify-start lg:pl-4 mt-4">
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  Panchamrut Bunglows II, Sola, Ahmedabad, Gujarat 380060
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  needhelp@domain.com
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  999 333 0000
-                </p>
-              </div>
-            </div>
-            <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
-              <div className="flex flex-row items-center">
-                <h4 className="text-[24px] font-semibold mt-14 text-white">
-                  Service
-                </h4>
-                <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
-              </div>
-              <div className="mt-5">
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  Reliability & Punctuality
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  Trusted Franchise
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  Warehoues Storage
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  Real Time Tracking
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  Transparent Pricing
-                </p>
-              </div>
-            </div>
-            <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
-              <div className="flex flex-row items-center">
-                <h4 className="text-[24px] font-semibold mt-14 text-white">
-                  Pages
-                </h4>
-                <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
-              </div>
-              <div className="mt-5">
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  About
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  New Projects
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  Our History
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  Contact
-                </p>
-                <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                  Blog Posts
-                </p>
-              </div>
-            </div>
-            <div className=" basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
+            <div className=" basis-full md:basis-1/4 sm:p-2 p-5">
               <div className="flex flex-row items-center">
                 <h4 className="text-[24px] font-semibold mt-14 text-white">
                   Newsletter

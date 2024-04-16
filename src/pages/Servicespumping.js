@@ -15,7 +15,7 @@ const Servicespumping = () => {
         }}
         className=" px-5 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
       >
-        <div className="w-[88%] flex flex-col justify-center">
+        <div className="w-[88%] flex flex-col justify-center ">
           <span className="text-3xl md:text-6xl lg:text-6xl text-white">
             Solar Water Pumping System{" "}
           </span>
@@ -26,8 +26,8 @@ const Servicespumping = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full ">
-        <div className="w-[78%] flex-col p-4">
+      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[28vh] w-full">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar Water Pumping System
           </div>
@@ -46,13 +46,13 @@ const Servicespumping = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[80vh] w-full ">
-        <div className="w-[78%] flex-col p-4">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[90vh] w-full mt-5 md:mt-0 lg:mt-0">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5 md:px-3 lg:px-3">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar pumping system consist of 3 main parts:
           </div>
           <div className="flex gap-7 max-lg:flex-col mt-5">
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-96 lg:w-96 hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
               <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img
                   src="https://www.suncitysolar.in/images/psolar-panels.png"
@@ -72,7 +72,7 @@ const Servicespumping = () => {
               </div>
             </div>
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  w-fit md:w-96 lg:w-96  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
               <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img
                   src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
@@ -95,7 +95,7 @@ const Servicespumping = () => {
               </div>
             </div>
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
+            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  w-fit md:w-96 lg:w-96  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
               <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img
                   src="https://www.suncitysolar.in/images/psolar-panels.png"
@@ -120,9 +120,9 @@ const Servicespumping = () => {
         </div>
       </div>
 
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[42vh] w-full">
-        <div className="w-[78%] flex-col pl-3">
-          <div className=" pb-5  text-2xl font-semibold md:text-3xl justify-center">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-8 md:mt-0 lg:mt-0">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+          <div className="text-2xl font-semibold md:text-3xl justify-center">
             Why choose us?
           </div>
 
@@ -183,8 +183,8 @@ const Servicespumping = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[35vh] w-full ">
-        <div className="w-[78%] flex-col pl-3">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full mt-8 md:mt-0 lg:mt-0 mb-8 md:mb-0 lg:mb-0">
+        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
           <div className=" pb-5  text-2xl font-semibold md:text-3xl justify-center">
             Advantages
           </div>

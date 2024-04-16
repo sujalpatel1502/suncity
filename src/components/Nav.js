@@ -136,7 +136,7 @@ const Nav = () => {
   ];
 
   return (
-    <div className="hidden lg:flex h-[10vh] flex justify-center">
+    <div className="hidden lg:flex h-[10vh] flex justify-center w-full bg-white  sticky top-0 z-[1000] shadow-xl">
       <div className="w-full max-w-[1224px] flex items-center justify-between px-8">
         <div className="flex  flex-1 justify-around">
           <a

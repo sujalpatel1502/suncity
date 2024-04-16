@@ -21,12 +21,12 @@ const Benifits = () => {
     // prevArrow: <SamplePrevArrow />,
   };
   return (
-    <div className="h-[80vh] flex justify-center hfitt">
-      <div className="w-full justify-center md:w-[78%] flex hcoll">
+    <div className="h-[550px] flex justify-center hfitt">
+      <div className="w-full justify-center md:max-w-[1224px] flex hcoll ml-0 md:ml-7 lg:ml-7">
         <div className="h-fit w-full flex flex-1 justify-center">
           <Sliderr
             {...settings}
-            className="overflow-hidden z-0 h-[70vh] w-[70vh] max-lg:h-[40vh] max-lg:w-[40vh]  border border-[#87AB42] rounded-2xl"
+            className="overflow-hidden z-0 h-[500px] w-[500px] max-lg:h-[350px] max-lg:w-[350px]  border border-[#87AB42] rounded-2xl"
           >
             <div className=" mt-12">
               <img
@@ -45,13 +45,13 @@ const Benifits = () => {
         <div className="flex-1 rounded-2xl mt-5 px-4 md:px-5">
           <div className="flex-1  h-fit w-fit px-1 md:px-5">
             <div className=" pb-5 mt-2 text-3xl font-semibold md:text-5xl">
-              Benefits of applying 
+              Benefits of applying
             </div>
 
             <div className="  pb-3 pr-3">
               <ul>
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2 justify-start">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -59,8 +59,8 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -68,8 +68,8 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -77,15 +77,15 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">Low maintenance.</li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -93,8 +93,8 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -102,8 +102,8 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -111,8 +111,8 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -120,8 +120,8 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -129,8 +129,8 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -138,8 +138,8 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">
@@ -147,8 +147,8 @@ const Benifits = () => {
                   </li>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <div>
+                <div className="flex gap-2">
+                  <div className="mt-2">
                     <FaCircleCheck color="#4aab3d" size={20} />
                   </div>
                   <li className="mt-1 text-[#3f3f3f]">

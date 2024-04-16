@@ -12,8 +12,8 @@ const HeadBanner = () => {
   };
   return (
     <>
-      <div className="h-[15vh] flex justify-center px-1 lg:px-4">
-        <div className="max-lg: w-full max-w-[1224px] flex items-center justify-between">
+      <div className="h-[15vh] flex justify-center px-1 lg:px-4 ">
+        <div className="max-lg:w-full max-w-[1224px] flex items-center justify-between">
           <div className="flex justify-between items-center max-lg:w-full px-8">
             <img
               src={require("../assets/SUNCITYLOGO.png")}
@@ -80,6 +80,7 @@ const HeadBanner = () => {
           </div>
         </div>
       </div>
+      <hr className="mt-2" />
       <SubNav handleSidebar={handleSidebar} showSidebar={showSidebar} />
     </>
   );
