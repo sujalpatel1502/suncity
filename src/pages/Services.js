@@ -14,7 +14,7 @@ const Services = () => {
         }}
         className=" px-5 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
       >
-        <div className="w-[88%] flex flex-col justify-center">
+        <div className="w-full max-w-[1124px] flex flex-col justify-center ml-2">
           <span className="text-3xl md:text-3xl lg:text-6xl text-white">
             SOLAR PANELS{" "}
           </span>
@@ -26,7 +26,7 @@ const Services = () => {
       </div>
 
       <div className="flex justify-center mt-8 h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full">
-        <div className="w-[78%] flex-col p-0 md:pl-5 lg:pl-5">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" text-2xl font-semibold md:text-3xl justify-center">
             Solar Panels
           </div>
@@ -102,8 +102,8 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full mt-8 md:mt-0 lg:mt-0 mb-8">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full mt-8 md:mt-0 lg:mt-0 mb-10">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className="pb-3 text-2xl font-semibold md:text-3xl justify-center">
             Maintenance
           </div>

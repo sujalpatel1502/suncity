@@ -144,7 +144,7 @@ p {
 }
 
 .wing {
-  width: 70px; /* Adjust width of the wing */
+  width: 100px; /* Adjust width of the wing */
   animation: spin 4s linear infinite; /* Adjust the duration and timing function */
 }
 

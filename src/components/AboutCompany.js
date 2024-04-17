@@ -17,17 +17,21 @@ const AboutCompany = () => {
             <span className="text-[#4aab3d] lg:text-2xl xl:text-sm underline underline-offset-[5px] pl-1">
               ABOUT OUR COMPANY
             </span>
-            <p className="mt-8 md:mt-10 text-white text-3xl font-semibold md:text-5xl md:font-bold ">
-              Best Wind Solution &
+
+            <p className="mt-8 md:mt-10 text-white text-3xl font-semibold md:text-5xl md:font-bold">
+              Light up your world with renewable
             </p>
             <p className="text-white text-3xl font-semibold md:text-5xl md:font-bold">
-              Renewable Energy
+              solar power!
             </p>
             <p className="mt-2 text-white text-sm ">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit eleifend
-              placerat varius sociis, feugiat egestas lacinia tincidunt tempus
-              urna sem ridiculus pulvinar semper morbi curae, curabitur sociosqu
-              bibendum
+              At Suncity Solar, we believe that renewable energy has the
+              potential to improve lives. We have dedicated ourselves to
+              developing solar solutions that not only save electricity and
+              resources, but also work efficiently. Our solutions are perfect
+              for anyone, whether a household or a business, who want to reduce
+              carbon emissions and conserve energy. With a one-time investment,
+              you may enjoy the benefits of solar energy for years.
             </p>
 
             <div className="mt-8 md:mt-10 flex items-center">
@@ -43,8 +47,8 @@ const AboutCompany = () => {
                   Award Wining Company
                 </span>
                 <p className="text-white text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit, dui
-                  facilisis vitae
+                  Recognized for our innovative approach and excellence in solar
+                  solutions
                 </p>
               </div>
             </div>
@@ -61,17 +65,15 @@ const AboutCompany = () => {
                 >
                   {index == 0 ? (
                     <span className="text-white text-3xl md:text-5xl">
-                      200+
+                      100+
                     </span>
                   ) : index == 1 ? (
                     <span className="text-white text-3xl md:text-5xl">20+</span>
                   ) : index == 2 ? (
-                    <span className="text-white text-3xl md:text-5xl">
-                      10k+
-                    </span>
+                    <span className="text-white text-3xl md:text-5xl">5k+</span>
                   ) : (
                     <span className="text-white text-3xl md:text-5xl">
-                      900+
+                      400+
                     </span>
                   )}
                   {index == 0 ? (

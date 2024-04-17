@@ -54,31 +54,28 @@ const Performer = () => {
     {
       name: "Mansi Patel",
       review:
-        "Every step, from listing to payment, was transparent and speedy. Cashflex clearly values sellers and buyers.",
+        "Our electric bills went down a lot after we got these solar panels.",
       img: Female,
     },
     {
       name: "Shivani Shah",
-      review:
-        "I've sold several devices using Cashflex, and each time the transaction went well. Highly recommended for anyone who wants to simplify their gadget-selling process and make some money.",
+      review: " It’s cheaper to run our farm with these solar pumps.",
       img: Female,
     },
     {
       name: "Tushar Tank",
-      review:
-        "Selling my old phone seemed challenging until I discovered Cashflex. They quickly linked me with buyers, and I received an excellent offer.",
+      review: "Our streets are bright at night now, and it saves us money.",
       img: Male,
     },
     {
       name: "Ayush Rajput",
       review:
-        "I was impressed at how simple and secure it was to sell my tablet with Cashflex. Received the best pricing without any trouble.",
+        "Our electric bills went down a lot after we got these solar panels.",
       img: Male,
     },
     {
       name: "Jay Rathod",
-      review:
-        "Everything went smoothly and quickly, from listing my old laptop to receiving payment. Cashflex is now my go-to for selling electronics.",
+      review: "It’s cheaper to run our farm with these solar pumps.",
       img: Male,
     },
   ];
@@ -112,7 +109,7 @@ const Performer = () => {
     <div className="max-lg:h-[70vh] h-[650px] flex justify-center mb-28">
       <div className="w-[78%] max-w-[1124px]">
         <p className=" text-3xl font-semibold md:text-5xl text-center">
-          Testimonials
+          What Our Customers Say
         </p>
 
         <div className="mt-10">

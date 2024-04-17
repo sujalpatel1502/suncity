@@ -40,10 +40,10 @@ const Map = () => {
           className="text-3xl  md:text-5xl  text-white font-[700] "
           style={{ textShadow: "0px 0px 2px rgba(26, 26, 26, 0.85)" }}
         >
-          INTERNATIONAL PRESENCE
+          Our Solar Reach
         </p>
         <p className="text-xl md:text-2xl mt-2 font-semibold">
-          OUR REACH AROUND THE GLOBE
+          Quality solar solutions for all over India.
         </p>
         <p className="text-sm md:text-xl mt-2 ">
           We have served both, Big Giants and Startups.

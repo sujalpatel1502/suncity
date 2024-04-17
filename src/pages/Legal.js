@@ -1,9 +1,19 @@
 import React from "react";
-
+import Lottie from "react-lottie";
+import animationData from "../lotties/Solarr.json";
+import IndiaMap from "../assets/images/bigFan.svg";
 const Legal = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="w-[88%] mt-6">
+      <div className="w-full max-w-[1124px] mt-6 px-5 md:px-2">
         <div className=" pb-5 text-2xl font-semibold md:text-3xl justify-center text-center">
           Compliance Documents
         </div>
@@ -336,3 +346,7 @@ const Legal = () => {
 export default Legal;
 
 // Legal
+
+// <Lottie options={defaultOptions} height={400} width={400} />
+
+// <img src={IndiaMap} className="object-contain h-full w-full" />

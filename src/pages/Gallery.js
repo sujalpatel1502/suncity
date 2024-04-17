@@ -34,7 +34,7 @@ const Gallery = () => {
                   onMouseEnter={() => setVState(true)}
                   className={`transition-all ease-in duration-300 ${
                     vSate ? "block" : "hidden"
-                  }  absolute justify-center items-center max-lg:left-[50%] left-[33%] transform -translate-x-1/2 max-lg:top-[45%] top-[59%] bg-[#404040] border border-white p-4 w-[20vh] rounded-xl font-bold text-white cursor-pointer hover:bg-transparent`}
+                  }  absolute justify-center items-center max-lg:left-[50%] left-[33%] transform -translate-x-1/2 max-lg:top-[45%] top-[63%] bg-[#404040] border border-white p-4 w-[20vh] rounded-xl font-bold text-white cursor-pointer hover:bg-transparent`}
                 >
                   View More
                 </div>

@@ -1,9 +1,10 @@
 import React from "react";
 import { GrInstallOption } from "react-icons/gr";
+import serviceimage1 from "../assets/images/service-5.jpg";
 import { MdGppGood } from "react-icons/md";
 import { IoTimer } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
-
+import { FaCheckCircle } from "react-icons/fa";
 const Servicespumping = () => {
   return (
     <>
@@ -13,9 +14,9 @@ const Servicespumping = () => {
           backgroundSize: "contain",
           backgroundBlendMode: "multiply",
         }}
-        className=" px-5 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
+        className="px-2 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
       >
-        <div className="w-[88%] flex flex-col justify-center ">
+        <div className="w-full max-w-[1124px] flex flex-col justify-center px-5 md:px-2">
           <span className="text-3xl md:text-6xl lg:text-6xl text-white">
             Solar Water Pumping System{" "}
           </span>
@@ -27,7 +28,7 @@ const Servicespumping = () => {
       </div>
 
       <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[28vh] w-full">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar Water Pumping System
           </div>
@@ -46,24 +47,23 @@ const Servicespumping = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[90vh] w-full mt-5 md:mt-0 lg:mt-0">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5 md:px-3 lg:px-3">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[580px] w-full mt-5 md:mt-0 lg:mt-0 ">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2 ">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar pumping system consist of 3 main parts:
           </div>
-          <div className="flex gap-7 max-lg:flex-col mt-5">
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-96 lg:w-96 hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
-              <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-                <img
-                  src="https://www.suncitysolar.in/images/psolar-panels.png"
-                  alt="card-image"
-                />
-              </div>
-              <div class="p-6">
-                <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  Solar Panels
-                </h5>
-                <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+          <div className="flex px-2 md:px-1 justify-between	mt-5 md:mt-7 max-lg:flex-col max-lg:w-fit items-center">
+            <div className="w-[31%] h-[465px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+              <img
+                src="https://www.suncitysolar.in/images/psolar-panels.png"
+                className="w-[300px] h-[150px] rounded-lg"
+              />
+
+              <div className="mt-3">
+                <h3 className="font-semibold text-[20px]">
+                  <span className="text-logogreen">Solar </span> Panels
+                </h3>
+                <p className="text-sm mt-2">
                   The solar panels make up most (up to 80%) of the systems cost.
                   The size of the PV-system is directly dependent on the size of
                   the pump, the amount of water that is required (m³/d) and the
@@ -71,20 +71,17 @@ const Servicespumping = () => {
                 </p>
               </div>
             </div>
+            <div className="w-[31%] h-[465px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+              <img
+                src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
+                className="w-[300px] h-[150px] rounded-lg"
+              />
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  w-fit md:w-96 lg:w-96  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
-              <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-                <img
-                  src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
-                  alt="card-image"
-                  className=""
-                />
-              </div>
-              <div class="p-6">
-                <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  The Controller
-                </h5>
-                <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              <div className="mt-3">
+                <h3 className="font-semibold text-[20px]">
+                  <span className="text-logogreen">The </span> Controller
+                </h3>
+                <p className="text-sm mt-2">
                   The purpose of the controller is twofold. Firstly, it matches
                   the output power that the pump receives with the input power
                   available from the solar panels. Secondly, a controller
@@ -94,20 +91,17 @@ const Servicespumping = () => {
                 </p>
               </div>
             </div>
+            <div className="w-[31%] h-[465px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+              <img
+                src="https://www.suncitysolar.in/images/psolar-panels.png"
+                className="w-[300px] h-[150px] rounded-lg"
+              />
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  w-fit md:w-96 lg:w-96  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
-              <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-                <img
-                  src="https://www.suncitysolar.in/images/psolar-panels.png"
-                  alt="card-image"
-                  className="overflow-hidden bg-contain"
-                />
-              </div>
-              <div class="p-6">
-                <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  The Pump
-                </h5>
-                <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              <div className="mt-3">
+                <h3 className="font-semibold text-[20px]">
+                  <span className="text-logogreen">The </span> Pump
+                </h3>
+                <p className="text-sm mt-2">
                   Voltage of the solar pump motors can be AC (alternating
                   current) or DC (direct current). Direct current motors are
                   used for small to medium applications up to about 4 kW rating.
@@ -121,7 +115,7 @@ const Servicespumping = () => {
       </div>
 
       <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-8 md:mt-0 lg:mt-0">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className="text-2xl font-semibold md:text-3xl justify-center">
             Why choose us?
           </div>
@@ -184,7 +178,7 @@ const Servicespumping = () => {
         </div>
       </div>
       <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full mt-8 md:mt-0 lg:mt-0 mb-8 md:mb-0 lg:mb-0">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" pb-5  text-2xl font-semibold md:text-3xl justify-center">
             Advantages
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { GrInstallOption } from "react-icons/gr";
 import { MdGppGood } from "react-icons/md";
+import serviceimage1 from "../assets/images/service-5.jpg";
 import { IoTimer } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
 const Servicesstreet = () => {
@@ -12,9 +13,9 @@ const Servicesstreet = () => {
           backgroundSize: "contain",
           backgroundBlendMode: "multiply",
         }}
-        className=" px-5 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
+        className="px-2 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
       >
-        <div className="w-[88%] flex flex-col justify-center">
+        <div className="w-full max-w-[1124px] flex flex-col justify-center px-5 md:px-2">
           <span className="text-3xl md:text-6xl lg:text-6xl text-white">
             Solar Street Lights{" "}
           </span>
@@ -25,8 +26,8 @@ const Servicesstreet = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[32vh] w-full ">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[36vh] w-full ">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar Street Lights
           </div>
@@ -49,24 +50,23 @@ const Servicesstreet = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[80vh] w-full ">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+      <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[520px] w-full ">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className="pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar street lights consist of 4 main parts:
           </div>
-          <div className="flex gap-5 max-lg:flex-col mt-5">
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-80 lg:w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
-              <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-                <img
-                  src="https://www.suncitysolar.in/images/psolar-panels.png"
-                  alt="card-image"
-                />
-              </div>
-              <div class="p-6">
-                <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  Solar Panels
-                </h5>
-                <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+          <div className="flex px-2 md:px-1 justify-between	mt-5 md:mt-7 max-lg:flex-col max-lg:w-fit items-center">
+            <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+              <img
+                src="https://www.suncitysolar.in/images/psolar-panels.png"
+                className="w-[300px] h-[150px] rounded-lg"
+              />
+
+              <div className="mt-3">
+                <h3 className="font-semibold text-[20px]">
+                  <span className="text-logogreen">Solar </span> Panels
+                </h3>
+                <p className="text-sm mt-2">
                   The solar panel is one of the most important parts of solar
                   street lights, as the solar panel will convert solar energy
                   into electricity.
@@ -74,19 +74,17 @@ const Servicesstreet = () => {
               </div>
             </div>
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-80 lg:w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
-              <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-                <img
-                  src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
-                  alt="card-image"
-                  className=""
-                />
-              </div>
-              <div class="p-6">
-                <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  Lighting Fixture
-                </h5>
-                <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+            <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+              <img
+                src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
+                className="w-[300px] h-[150px] rounded-lg"
+              />
+
+              <div className="mt-3">
+                <h3 className="font-semibold text-[20px]">
+                  <span className="text-logogreen">Lighting </span> Fixture
+                </h3>
+                <p className="text-sm mt-2">
                   LED is usually used as lighting source of modern solar street
                   light, as the LED will provide much higher Lumens with lower
                   energy consumption.
@@ -94,38 +92,34 @@ const Servicesstreet = () => {
               </div>
             </div>
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-80 lg:w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
-              <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-                <img
-                  src="https://www.suncitysolar.in/images/psolar-panels.png"
-                  alt="card-image"
-                  className="overflow-hidden bg-contain"
-                />
-              </div>
-              <div class="p-6">
-                <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  Rechargeable Battery
-                </h5>
-                <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+            <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+              <img
+                src="https://www.suncitysolar.in/images/psolar-panels.png"
+                className="w-[300px] h-[150px] rounded-lg"
+              />
+
+              <div className="mt-3">
+                <h3 className="font-semibold text-[20px]">
+                  <span className="text-logogreen">Rechargeable </span> Battery
+                </h3>
+                <p className="text-sm mt-2">
                   Battery will store the electricity from solar panel during the
                   day and provide energy to the fixture during night.
                 </p>
               </div>
             </div>
 
-            <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-fit md:w-80 lg:w-80  hover:border-logogreen hover:border-[1px] transition-all ease-in duration-300 cursor-pointer">
-              <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-                <img
-                  src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
-                  alt="card-image"
-                  className=""
-                />
-              </div>
-              <div class="p-6">
-                <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  Pole
-                </h5>
-                <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+            <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+              <img
+                src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
+                className="w-[300px] h-[150px] rounded-lg"
+              />
+
+              <div className="mt-3">
+                <h3 className="font-semibold text-[20px]">
+                  <span className="text-logogreen">Pole </span>
+                </h3>
+                <p className="text-sm mt-2">
                   Strong Poles are necessary to all street lights.
                 </p>
               </div>
@@ -135,7 +129,7 @@ const Servicesstreet = () => {
       </div>
 
       <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-8 md:mt-0 lg:mt-0">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className="text-2xl font-semibold md:text-3xl justify-center">
             Why choose us?
           </div>
@@ -197,7 +191,7 @@ const Servicesstreet = () => {
         </div>
       </div>
       <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full mt-8 md:mt-0 lg:mt-0 mb-8 md:mb-0 lg:mb-0">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+        <div className="w-full max-w-[1124px] flex-col  px-5 md:px-2">
           <div className=" pb-5  text-2xl font-semibold md:text-3xl justify-center">
             Advantages
           </div>

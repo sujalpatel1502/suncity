@@ -12,9 +12,9 @@ const Servicesheater = () => {
           backgroundSize: "contain",
           backgroundBlendMode: "multiply",
         }}
-        className=" px-5 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
+        className="px-2 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
       >
-        <div className="w-[88%] flex flex-col justify-center">
+        <div className="w-full max-w-[1124px] flex flex-col justify-center px-5 md:px-2">
           <span className="text-3xl md:text-6xl lg:text-6xl text-white">
             Solar Water Heaters{" "}
           </span>
@@ -26,7 +26,7 @@ const Servicesheater = () => {
       </div>
 
       <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar Water Heaters
           </div>
@@ -68,7 +68,7 @@ const Servicesheater = () => {
         </div>
       </div>
       <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-6">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className="text-2xl font-semibold md:text-3xl justify-center">
             Why choose us?
           </div>
@@ -132,7 +132,7 @@ const Servicesheater = () => {
       </div>
 
       <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-fit w-full pb-10 mt-7 md:mt-0 lg:mt-0">
-        <div className="w-[78%] flex-col pl-0 md:pl-5 lg:pl-5">
+        <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" pb-5 text-2xl font-semibold md:text-3xl justify-center">
             Applications
           </div>

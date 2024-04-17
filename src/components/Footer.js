@@ -22,7 +22,7 @@ const Footer = () => {
         className="h-[700px] max-lg:h-fit flex max-lg:flex-col relative"
       >
         <div className="flex flex-wrap max-lg:justify-start justify-center items-center bg-gray-800 bg-opacity-75 w-full ">
-          <div className=" max-w-[1224px] flex flex-col justify-center items-center">
+          <div className=" max-w-[1224px] flex flex-col md:justify-center lg:items-center md:items-center lg:justify-center">
             {location.pathname == "/" && (
               <div className="max-lg:hidden  absolute flex top-[-115px] bg-[#4aab3d] h-[200px] w-[1100px] max-w-[1224px] justify-between items-center p-16">
                 <div className="">
@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
               </div>
             )}
-            <div className="flex flex-wrap w-[78%] max-w-[1224px] max-lg:justify-start justify-evenly mt-16">
+            <div className="flex flex-wrap  max-w-[1224px] max-lg:justify-start justify-evenly mt-16">
               <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
                 <div className="flex mt-12 bg-white rounded-2xl p-[10px]">
                   <img
@@ -52,7 +52,7 @@ const Footer = () => {
                     Panchamrut Bunglows II, Sola, Ahmedabad, Gujarat 380060
                   </p>
                   <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                    needhelp@domain.com
+                    solarsuncity@gmail.com
                   </p>
                   <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
                     999 333 0000
@@ -110,7 +110,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className=" basis-full md:basis-1/4 sm:p-2 p-5">
+            <div className="basis-full md:basis-1/4 sm:p-2 p-5">
               <div className="flex flex-row items-center">
                 <h4 className="text-[24px] font-semibold mt-14 text-white">
                   Newsletter

@@ -30,15 +30,18 @@ const Benifits = () => {
           >
             <div className=" mt-12">
               <img
-                src={"https://www.suncitysolar.in/images/employment.png"}
+                src={require("../assets/images/slider_1.png")}
                 className=""
               />
             </div>
             <div className="mt-12">
-              <img src={"https://www.suncitysolar.in/images/home.jpg"} />
+              <img src={require("../assets/images/slider_2.png")} />
             </div>
             <div className="mt-12">
-              <img src={"https://www.suncitysolar.in/images/savings.png"} />
+              <img src={require("../assets/images/slider_3.png")} />
+            </div>
+            <div className="mt-12">
+              <img src={require("../assets/images/slider_4.png")} />
             </div>
           </Sliderr>
         </div>

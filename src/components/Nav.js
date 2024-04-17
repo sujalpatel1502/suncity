@@ -17,7 +17,7 @@ const Nav = () => {
       key: "2",
       label: (
         // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
+        <Link rel="noopener noreferrer" to="">
           Testimonial
         </Link>
       ),
@@ -26,7 +26,7 @@ const Nav = () => {
       key: "3",
       label: (
         // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
+        <Link rel="noopener noreferrer" to="">
           Team
         </Link>
       ),
@@ -35,7 +35,7 @@ const Nav = () => {
       key: "4",
       label: (
         // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
+        <Link rel="noopener noreferrer" to="">
           Shop
         </Link>
       ),
@@ -44,7 +44,7 @@ const Nav = () => {
       key: "5",
       label: (
         // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
+        <Link rel="noopener noreferrer" to="">
           My account
         </Link>
       ),
@@ -53,7 +53,7 @@ const Nav = () => {
       key: "6",
       label: (
         // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
+        <Link rel="noopener noreferrer" to="">
           Error Page
         </Link>
       ),

@@ -10,11 +10,11 @@ const AboutUs = () => {
         }}
         className=" px-5 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
       >
-        <div className="w-[88%] flex flex-col justify-center">
-          <span className="text-3xl md:text-2xl lg:text-4xl text-white">
+        <div className="w-full max-w-[1124px] flex flex-col justify-center ml-2">
+          <span className="text-3xl md:text-2xl lg:text-6xl text-white">
             About SUNCITY SOLAR{" "}
           </span>
-          <p className="text-xl md:text-2xl lg:text-2xl font-light text-white mt-3">
+          <p className="text-xl md:text-2xl lg:text-3xl font-light text-white mt-3">
             custom solutions based Brand to solve Energy problem with Renewable
             energy.
           </p>
@@ -24,7 +24,7 @@ const AboutUs = () => {
         <hr className=" px-1 md:px-5 w-full  bg-black mt-5 px-16" />
       </div>
       <div className="flex justify-center items-center">
-        <div className=" px-5 md:px-20 mt-5 flex max-lg:flex-col mb-9 w-[88%]">
+        <div className=" px-5 md:px-9 mt-5 flex max-lg:flex-col mb-9 w-full max-w-[1224px]">
           <div className="flex-1  h-fit w-fit px-1 md:px-5">
             <div className=" pb-5 text-2xl  font-bold">About Us</div>
 

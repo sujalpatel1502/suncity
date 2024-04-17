@@ -95,13 +95,15 @@ const Slider = () => {
             transition: "transform 1s ease, opacity 0.5s ease",
           }}
         >
-          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
-            A bright idea{" "}
-          </p>
-          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
-            {" "}
-            for a greener planet
-          </p>
+          <div className="max-w-[1224px] ml-10 flex flex-col md:text-center lg:text-center">
+            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
+              Brighter Homes, Greener Planet{" "}
+            </p>
+            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
+              {" "}
+              with Suncity Solar
+            </p>
+          </div>
         </div>
       </div>
       <div className="max-lg:mt-0 mt-[-210px]">
@@ -123,13 +125,15 @@ const Slider = () => {
             transition: "transform 1s ease, opacity 0.5s ease",
           }}
         >
-          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
-            Power up with the{" "}
-          </p>
-          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
-            {" "}
-            sun, go solar today
-          </p>
+          <div className="max-w-[1224px] ml-10 flex flex-col md:text-center lg:text-center">
+            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
+              Invest Today and Save Tomorrow{" "}
+            </p>
+            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
+              {" "}
+              - Go Solar
+            </p>
+          </div>
         </div>
       </div>
       <div className="max-lg:mt-0 mt-[-210px]">
@@ -151,17 +155,15 @@ const Slider = () => {
             transition: "transform 1s ease, opacity 0.5s ease",
           }}
         >
-          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
-            Solar energy,{" "}
-          </p>
-          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
-            {" "}
-            Clean,green,and
-          </p>
-          <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
-            {" "}
-            renewable
-          </p>
+          <div className="max-w-[1224px] ml-10 flex flex-col md:text-center lg:text-center">
+            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
+              Turn Sunshine Into Savings{" "}
+            </p>
+            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
+              {" "}
+              with Suncity Solar
+            </p>
+          </div>
         </div>
       </div>
     </Sliderr>

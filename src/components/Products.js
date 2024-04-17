@@ -16,23 +16,25 @@ const Products = () => {
             </span>
 
             <p className=" mt-2 text-3xl font-semibold md:text-5xl ">
-              We Provide Best Services
+              Our Solar Solutions Powering A Brighter Future For All
             </p>
 
-            <p className=" text-3xl md:text-5xl mt-2">For Solar Pannels</p>
+            <p className=" text-3xl md:text-3xl mt-3">
+              Discover our wide range of high-quality solar products tailored to
+              your needs
+            </p>
           </div>
         </div>
 
         {/* services cards starts  ........................................................*/}
 
         <div className="flex w-full md:max-w-[1244px]  px-2 md:px-10 justify-between	mt-5 md:mt-10 max-lg:flex-col max-lg:w-fit items-center ml-0 md:ml-14 lg:ml-14">
-          <div className="w-[31%] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+          <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
             <h3 className="font-semibold text-[20px]">
-              <span className="text-logogreen">Panels</span> Settings
+              <span className="text-logogreen">Solar</span> Panels
             </h3>
             <p className="text-sm mt-2">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+              Harness the sun's energy with our high-efficiency solar panels.
             </p>
 
             <div className="mt-3">
@@ -40,19 +42,19 @@ const Products = () => {
                 <span className="text-logogreen my-auto ">
                   <FaCheckCircle />
                 </span>{" "}
-                <span className="ml-2"> New Solar Installation</span>
+                <span className="ml-2"> Maximize Energy</span>
               </p>
               <p className="text-sm mt-1 flex align-center">
                 <span className="text-logogreen my-auto ">
                   <FaCheckCircle />
                 </span>{" "}
-                <span className="ml-2"> Battery & Pannels</span>
+                <span className="ml-2"> High Efficiency</span>
               </p>
               <p className="text-sm mt-1 flex align-center">
                 <span className="text-logogreen my-auto ">
                   <FaCheckCircle />
                 </span>{" "}
-                <span className="ml-2"> Wind Customize</span>
+                <span className="ml-2"> Reduce Carbon</span>
               </p>
             </div>
             <div className="mt-3">
@@ -60,13 +62,12 @@ const Products = () => {
             </div>
           </div>
 
-          <div className="w-[31%] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
             <h3 className="font-semibold text-[20px]">
-              <span className="text-logogreen">Panels</span> Settings
+              <span className="text-logogreen">Solar Water </span> Heaters
             </h3>
             <p className="text-sm mt-2">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+              Enjoy hot water anytime, without high electricity bills.
             </p>
 
             <div className="mt-3">
@@ -74,19 +75,19 @@ const Products = () => {
                 <span className="text-logogreen my-auto ">
                   <FaCheckCircle />
                 </span>{" "}
-                <span className="ml-2"> New Solar Installation</span>
+                <span className="ml-2"> Reliable Hot Water</span>
               </p>
               <p className="text-sm mt-1 flex align-center">
                 <span className="text-logogreen my-auto ">
                   <FaCheckCircle />
                 </span>{" "}
-                <span className="ml-2"> Battery & Pannels</span>
+                <span className="ml-2"> Lower Bills</span>
               </p>
               <p className="text-sm mt-1 flex align-center">
                 <span className="text-logogreen my-auto ">
                   <FaCheckCircle />
                 </span>{" "}
-                <span className="ml-2"> Wind Customize</span>
+                <span className="ml-2">Eco-Friendly</span>
               </p>
             </div>
             <div className="mt-3">
@@ -94,13 +95,12 @@ const Products = () => {
             </div>
           </div>
 
-          <div className="w-[31%] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
             <h3 className="font-semibold text-[20px]">
-              <span className="text-logogreen">Panels</span> Settings
+              <span className="text-logogreen">Solar Water </span> Pumping
             </h3>
             <p className="text-sm mt-2">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+              An ideal solution for irrigation and large-scale
             </p>
 
             <div className="mt-3">
@@ -108,19 +108,52 @@ const Products = () => {
                 <span className="text-logogreen my-auto ">
                   <FaCheckCircle />
                 </span>{" "}
-                <span className="ml-2"> New Solar Installation</span>
+                <span className="ml-2"> Sustainable Farming</span>
               </p>
               <p className="text-sm mt-1 flex align-center">
                 <span className="text-logogreen my-auto ">
                   <FaCheckCircle />
                 </span>{" "}
-                <span className="ml-2"> Battery & Pannels</span>
+                <span className="ml-2"> Reduced Costs</span>
               </p>
               <p className="text-sm mt-1 flex align-center">
                 <span className="text-logogreen my-auto">
                   <FaCheckCircle />
                 </span>{" "}
-                <span className="ml-2"> Wind Customize</span>
+                <span className="ml-2"> Energy Efficient</span>
+              </p>
+            </div>
+            <div className="mt-3">
+              <img src={serviceimage1} className="w-[90%] rounded-lg" />
+            </div>
+          </div>
+
+          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+            <h3 className="font-semibold text-[20px]">
+              <span className="text-logogreen">Solar Street </span> Lights
+            </h3>
+            <p className="text-sm mt-2">
+              Light up your streets with our durable and cost-effective lights.
+            </p>
+
+            <div className="mt-3">
+              <p className="text-sm mt-1 flex align-center">
+                <span className="text-logogreen my-auto ">
+                  <FaCheckCircle />
+                </span>{" "}
+                <span className="ml-2"> Durable Lighting</span>
+              </p>
+              <p className="text-sm mt-1 flex align-center">
+                <span className="text-logogreen my-auto ">
+                  <FaCheckCircle />
+                </span>{" "}
+                <span className="ml-2"> Cost-Effective</span>
+              </p>
+              <p className="text-sm mt-1 flex align-center">
+                <span className="text-logogreen my-auto">
+                  <FaCheckCircle />
+                </span>{" "}
+                <span className="ml-2">Weather-Resistant</span>
               </p>
             </div>
             <div className="mt-3">
