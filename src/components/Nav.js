@@ -145,7 +145,24 @@ const Nav = () => {
           >
             Home
           </a>
-          <a href="#" className=" rounded-md px-3 py-2 text-sm font-medium">
+
+
+          <a
+            href="/"
+            className=" font-bold  flex items-center space-x-1 cursor-pointer"
+            onClick={(e) => e.preventDefault()}
+          >
+            <Link to="/about-us">
+              <p className="hover:text-[#87AB42] text-sm font-medium">
+                About
+              </p>
+            </Link>
+          </a>
+
+
+
+
+          {/* <a href="#" className=" rounded-md px-3 py-2 text-sm font-medium">
             <Dropdown menu={{ items: Pagesitems }} placement="bottom" arrow>
               <a
                 className="font-bold  flex items-center space-x-1"
@@ -156,7 +173,7 @@ const Nav = () => {
                 </p>
               </a>
             </Dropdown>
-          </a>
+          </a> */}
 
           <a
             href="#"
