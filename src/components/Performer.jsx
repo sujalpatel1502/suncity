@@ -106,7 +106,7 @@ const Performer = () => {
   };
 
   return (
-    <div className="max-lg:h-[70vh] h-[650px] flex justify-center mb-28">
+    <div className="max-lg:h-[70vh] h-[650px] flex justify-center mb-28 mt-20">
       <div className="w-[78%] max-w-[1124px]">
         <p className=" text-3xl font-semibold md:text-5xl text-center">
           What Our Customers Say

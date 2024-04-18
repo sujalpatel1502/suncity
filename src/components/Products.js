@@ -8,18 +8,18 @@ import windmill from "../assets/images/windmill.svg";
 const Products = () => {
   return (
     <>
-      <div className="max-lg:container flex flex-col justify-center items-center mt-10">
+      <div className="max-lg:container flex flex-col justify-center items-center mt-20">
         <div className="flex flex-col text-center  w-full md:w-[80%] px-2 md:px-10">
           <div className="basis-1">
             <span className=" text-logogreen underline underline-offset-[5px] pl-1 ">
               OUR Services
             </span>
 
-            <p className=" mt-2 text-3xl font-semibold md:text-5xl ">
-              Our Solar Solutions Powering A Brighter Future For All
+            <p className=" mt-5 text-3xl font-semibold md:text-5xl ">
+              Powering A Brighter Future For All
             </p>
 
-            <p className=" text-3xl md:text-3xl mt-3">
+            <p className=" md:text-xl mt-3">
               Discover our wide range of high-quality solar products tailored to
               your needs
             </p>

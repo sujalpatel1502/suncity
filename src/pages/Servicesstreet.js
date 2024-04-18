@@ -19,17 +19,18 @@ const Servicesstreet = () => {
           <span className="text-3xl md:text-6xl lg:text-6xl text-white">
             Solar Street Lights{" "}
           </span>
-          <p className="text-xl md:text-2xl lg:text-3xl font-light text-white mt-3">
+          {/* <p className="text-xl md:text-2xl lg:text-3xl font-light text-white mt-3">
             custom solutions based Brand to solve Energy problem with Renewable
             energy.
-          </p>
+          </p> */}
         </div>
       </div>
 
       <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[36vh] w-full ">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
-            Solar Street Lights
+          Sustainable lighting solution with the power of solar
+
           </div>
 
           <p className="text-[17.24px] leading-[1.8]">

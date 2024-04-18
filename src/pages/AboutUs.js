@@ -12,12 +12,12 @@ const AboutUs = () => {
       >
         <div className="w-full max-w-[1124px] flex flex-col justify-center ml-2">
           <span className="text-3xl md:text-2xl lg:text-6xl text-white">
-            About SUNCITY SOLAR{" "}
+            About Suncity Solar{" "}
           </span>
-          <p className="text-xl md:text-2xl lg:text-3xl font-light text-white mt-3">
+          {/* <p className="text-xl md:text-2xl lg:text-3xl font-light text-white mt-3">
             custom solutions based Brand to solve Energy problem with Renewable
             energy.
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="px-5 md:px-20 pt-9 text-2xl mb-4 ">
@@ -26,7 +26,7 @@ const AboutUs = () => {
       <div className="flex justify-center items-center">
         <div className=" px-5 md:px-9 mt-5 flex max-lg:flex-col mb-9 w-full max-w-[1224px]">
           <div className="flex-1  h-fit w-fit px-1 md:px-5">
-            <div className=" pb-5 text-2xl  font-bold">About Us</div>
+            <div className=" pb-5 text-2xl  font-bold">Making Clean, Green Energy accessible with Our Solar Solutions.</div>
 
             <div className=" pb-3 pr-3">
               <p>

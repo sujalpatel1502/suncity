@@ -16,19 +16,19 @@ const Services = () => {
       >
         <div className="w-full max-w-[1124px] flex flex-col justify-center ml-2">
           <span className="text-3xl md:text-3xl lg:text-6xl text-white">
-            SOLAR PANELS{" "}
+            Solar Panels{" "}
           </span>
-          <p className="text-xl md:text-2xl lg:text-3xl font-light text-white mt-3">
+          {/* <p className="text-xl md:text-2xl lg:text-3xl font-light text-white mt-3">
             custom solutions based Brand to solve Energy problem with Renewable
             energy.
-          </p>
+          </p> */}
         </div>
       </div>
 
-      <div className="flex justify-center mt-8 h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full">
+      <div className="flex justify-center mt-8 h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full mt-10 md:mt-20">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" text-2xl font-semibold md:text-3xl justify-center">
-            Solar Panels
+          Efficient, Clean Energy for Your Home or Business
           </div>
 
           <p className="text-[17.24px] leading-[1.8] mt-3">
