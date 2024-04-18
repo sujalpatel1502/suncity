@@ -97,11 +97,11 @@ const Slider = () => {
         >
           <div className="max-w-[1224px] ml-10 flex flex-col md:text-center lg:text-center">
             <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
-              Brighter Homes, Greener Planet{" "}
+              Brighter Homes{" "}
             </p>
-            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
+            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold mt-2">
               {" "}
-              with Suncity Solar
+              Greener Planet
             </p>
           </div>
         </div>
@@ -127,11 +127,11 @@ const Slider = () => {
         >
           <div className="max-w-[1224px] ml-10 flex flex-col md:text-center lg:text-center">
             <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
-              Invest Today and Save Tomorrow{" "}
+              Invest Today and {" "}
             </p>
-            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
+            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold mt-2">
               {" "}
-              - Go Solar
+              Save Tomorrow{/* - Go Solar */}
             </p>
           </div>
         </div>
@@ -157,11 +157,11 @@ const Slider = () => {
         >
           <div className="max-w-[1224px] ml-10 flex flex-col md:text-center lg:text-center">
             <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
-              Turn Sunshine Into Savings{" "}
+              Turn Sunshine {" "}
             </p>
-            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold">
-              {" "}
-              with Suncity Solar
+            <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold mt-2">
+              {" "}Into Savings 
+              {/* with Suncity Solar */}
             </p>
           </div>
         </div>
