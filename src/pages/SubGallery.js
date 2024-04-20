@@ -13,6 +13,8 @@ const SubGallery = (props) => {
     });
   };
 
+  // cash flex  data
+
   // const [show, setShow] = useState(false);
   // console.log(
   //   "loccccccccc",
