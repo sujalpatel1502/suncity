@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { FaArrowUp } from "react-icons/fa";
-import data from "../data/product.json";
+// import data from "../data/product.json";
 
 const SubGallery = (props) => {
   const location = useLocation().state;
