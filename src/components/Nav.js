@@ -152,9 +152,7 @@ const Nav = () => {
             onClick={(e) => e.preventDefault()}
           >
             <Link to="/about-us">
-              <p className="hover:text-[#87AB42] text-sm font-medium">
-                Abouttt
-              </p>
+              <p className="hover:text-[#87AB42] text-sm font-medium">About</p>
             </Link>
           </a>
 
