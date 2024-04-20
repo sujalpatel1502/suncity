@@ -146,21 +146,15 @@ const Nav = () => {
             Home
           </a>
 
-
           <a
             href="/"
             className=" font-bold  flex items-center space-x-1 cursor-pointer"
             onClick={(e) => e.preventDefault()}
           >
             <Link to="/about-us">
-              <p className="hover:text-[#87AB42] text-sm font-medium">
-                About
-              </p>
+              <p className="hover:text-[#87AB42] text-sm font-medium">About</p>
             </Link>
           </a>
-
-
-
 
           {/* <a href="#" className=" rounded-md px-3 py-2 text-sm font-medium">
             <Dropdown menu={{ items: Pagesitems }} placement="bottom" arrow>
@@ -220,10 +214,14 @@ const Nav = () => {
           </a>
 
           <a
-            href="#"
+            href=""
             className=" hover:text-[#87AB42] rounded-md px-3 py-2 text-sm font-medium"
           >
-            <p className="hover:text-[#87AB42] text-sm font-medium">Contact</p>
+            <Link to="/contact-us">
+              <p className="hover:text-[#87AB42] text-sm font-medium">
+                Contact
+              </p>
+            </Link>
           </a>
         </div>
         <div className="flex-1 px-3 py-1 flex justify-around items-center ml-16">

@@ -1,10 +1,29 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { FaArrowUp } from "react-icons/fa";
+import data from "../data/product.json";
 
 const SubGallery = (props) => {
   const location = useLocation().state;
-  const [show, setShow] = useState(false);
-  console.log("loccccccccc", location);
+  const [showScrollButton, setShowScrollButton] = useState(false);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Optional: animated scroll behavior
+    });
+  };
+
+  // const [show, setShow] = useState(false);
+  // console.log(
+  //   "loccccccccc",
+  //   location,
+  //   data.entity.buybackOffers[0].nested.length
+  // );
+
+  // for (let i = 0; i <= 34; i++) {
+  //   console.log("i", data.entity.buybackOffers[0].nested[i]);
+  // }
+
   return (
     <>
       <div className="w-full  flex flex-col justify-center items-center self-center">
@@ -18,88 +37,83 @@ const SubGallery = (props) => {
                   </div>
                 </div>
 
-                <div class="-m-1 flex flex-wrap md:-m-2">
-                  <div class="flex w-1/2 flex-wrap mt-0 md:mt-10 lg:mt-10">
-                    <div class="w-1/2 p-1 md:p-2 ">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center overflow-hidden cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/12_galphoto_small.jpg?img=194354970"
-                      />
-                    </div>
-                    <div class="w-1/2 p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/11_galphoto_small.jpg?img=194354970"
-                      />
-                    </div>
-                    <div class="w-full p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/10_galphoto_small.jpg?img=194354970"
-                      />
-                    </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/12_galphoto_small.jpg?img=194354970"
+                      alt=""
+                    />
                   </div>
-                  <div class="flex w-1/2 flex-wrap mt-0 md:mt-10 lg:mt-10">
-                    <div class="w-full p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/9_galphoto_small.jpg?img=194354970"
-                      />
-                    </div>
-                    <div class="w-1/2 p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/8_galphoto_small.jpg?img=194354970"
-                      />
-                    </div>
-                    <div class="w-1/2 p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/6_galphoto_small.jpg?img=194354970"
-                      />
-                    </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/11_galphoto_small.jpg?img=194354970"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/10_galphoto_small.jpg?img=194354970"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/9_galphoto_small.jpg?img=194354970"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/8_galphoto_small.jpg?img=194354970"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/6_galphoto_small.jpg?img=194354970"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/5_galphoto_small.jpg?img=194354970"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/3_galphoto_small.jpg?img=194354970"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/2_galphoto_small.jpg?img=194354970"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/1_galphoto_small.jpg?img=145410957?img=194354970"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
-              <div class="container mx-auto px-5 py-2 lg:px-5 lg:pt-2">
-                <div class="-m-1 flex flex-wrap md:-m-2">
-                  <div class="flex w-1/2 flex-wrap">
-                    <div class="w-1/2 p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/5_galphoto_small.jpg?img=194354970"
-                      />
-                    </div>
-                    <div class="w-1/2 p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/3_galphoto_small.jpg?img=194354970"
-                      />
-                    </div>
-                    <div class="w-full p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/2_galphoto_small.jpg?img=194354970"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex w-1/2 flex-wrap">
-                    <div class="w-full p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/1_galphoto_small.jpg?img=145410957?img=194354970"
-                      />
-                    </div>
+              <div className=" flex justify-end max-lg:justify-center mt-8 mb-4 cursor-pointer max-lg:mr-0 mr-10">
+                <div onClick={scrollToTop}>
+                  <div class="b animate-bounce flex justify-center items-center p-5 rounded-full bg-[#87AB42]">
+                    <FaArrowUp />
                   </div>
                 </div>
               </div>
@@ -112,60 +126,62 @@ const SubGallery = (props) => {
                     4TH ANNIVERSARY
                   </div>
                 </div>
-                <div class="-m-1 flex flex-wrap md:-m-2">
-                  <div class="flex w-1/2 flex-wrap mt-0 md:mt-10 lg:mt-10">
-                    <div class="w-1/2 p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center overflow-hidden cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/25_galphoto_small.jpeg?img=204712530"
-                      />
-                    </div>
-                    <div class="w-1/2 p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/24_galphoto_small.jpeg?img=204712530"
-                      />
-                    </div>
-                    <div class="w-full p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/23_galphoto_small.jpeg?img=204712530"
-                      />
-                    </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/25_galphoto_small.jpeg?img=204712530"
+                      alt=""
+                    />
                   </div>
-                  <div class="flex w-1/2 flex-wrap mt-0 md:mt-10 lg:mt-10">
-                    <div class="w-full p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/21_galphoto_small.jpeg?img=204712530"
-                      />
-                    </div>
-                    <div class="w-1/2 p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/22_galphoto_small.jpeg?img=204712530"
-                      />
-                    </div>
-                    <div class="w-1/2 p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/20_galphoto_small.jpeg?img=204712530"
-                      />
-                    </div>
-
-                    <div class="w-full p-1 md:p-2">
-                      <img
-                        alt="gallery"
-                        class="block h-full w-full rounded-lg object-cover object-center cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
-                        src="https://www.suncitysolar.in/galphoto/19_galphoto_small.jpeg?img=204712530"
-                      />
-                    </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/24_galphoto_small.jpeg?img=204712530"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/23_galphoto_small.jpeg?img=204712530"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/21_galphoto_small.jpeg?img=204712530"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/22_galphoto_small.jpeg?img=204712530"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/20_galphoto_small.jpeg?img=204712530"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="h-auto max-w-full rounded-lg cursor-pointer img-resp hover:scale-105 transition-transform duration-300 ease-in-out"
+                      src="https://www.suncitysolar.in/galphoto/19_galphoto_small.jpeg?img=204712530"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className=" flex justify-end max-lg:justify-center mt-8 mb-4 cursor-pointer max-lg:mr-0 mr-10">
+                <div onClick={scrollToTop}>
+                  <div class="b animate-bounce flex justify-center items-center p-5 rounded-full bg-[#87AB42]">
+                    <FaArrowUp />
                   </div>
                 </div>
               </div>

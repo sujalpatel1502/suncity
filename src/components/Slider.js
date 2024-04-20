@@ -95,7 +95,7 @@ const Slider = () => {
             transition: "transform 1s ease, opacity 0.5s ease",
           }}
         >
-          <div className="max-w-[1224px] ml-10 flex flex-col md:text-center lg:text-center">
+          <div className="max-w-[1224px] ml-0 md:ml-10 lg:ml-10 flex flex-col md:text-center lg:text-center">
             <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
               Brighter Homes{" "}
             </p>
@@ -125,9 +125,9 @@ const Slider = () => {
             transition: "transform 1s ease, opacity 0.5s ease",
           }}
         >
-          <div className="max-w-[1224px] ml-10 flex flex-col md:text-center lg:text-center">
+          <div className="max-w-[1224px] ml-0 md:ml-10 lg:ml-10 flex flex-col md:text-center lg:text-center">
             <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
-              Invest Today and {" "}
+              Invest Today and{" "}
             </p>
             <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold mt-2">
               {" "}
@@ -155,12 +155,13 @@ const Slider = () => {
             transition: "transform 1s ease, opacity 0.5s ease",
           }}
         >
-          <div className="max-w-[1224px] ml-10 flex flex-col md:text-center lg:text-center">
+          <div className="max-w-[1224px] ml-0 md:ml-10 lg:ml-10 flex flex-col md:text-center lg:text-center">
             <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold ">
-              Turn Sunshine {" "}
+              Turn Sunshine{" "}
             </p>
             <p className="text-white text-3xl font-semibold md:text-7xl md:font-bold mt-2">
-              {" "}Into Savings 
+              {" "}
+              Into Savings
               {/* with Suncity Solar */}
             </p>
           </div>

@@ -46,51 +46,6 @@ const SubNav = ({ showSidebar, handleSidebar }) => {
         </Link>
       ),
     },
-    {
-      key: "2",
-      label: (
-        // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Testimonial
-        </Link>
-      ),
-    },
-    {
-      key: "3",
-      label: (
-        // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Team
-        </Link>
-      ),
-    },
-    {
-      key: "4",
-      label: (
-        // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Shop
-        </Link>
-      ),
-    },
-    {
-      key: "5",
-      label: (
-        // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          My account
-        </Link>
-      ),
-    },
-    {
-      key: "6",
-      label: (
-        // <Link target="_blank" rel="noopener noreferrer" to="/sell-old-laptop">
-        <Link rel="noopener noreferrer" to="/sell-old-laptop">
-          Error Page
-        </Link>
-      ),
-    },
   ];
   const ServicesItems = [
     {
@@ -306,6 +261,7 @@ const SubNav = ({ showSidebar, handleSidebar }) => {
             </div>
 
             <li>
+              <Link></Link>
               <a
                 href="#"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
@@ -336,38 +292,46 @@ const SubNav = ({ showSidebar, handleSidebar }) => {
             </div>
 
             <li>
-              <a
-                href="/gallery"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              <Link
+                rel="noopener noreferrer"
+                to="/gallery"
+                onClick={handleSidebar}
               >
-                <FaRegNewspaper color="gray" />
-                <div className="w-full flex flex-col">
-                  <div className="flex justify-between  items-center pr-5">
-                    <span className="flex-1 ms-3 whitespace-nowrap">
-                      Gallery
-                    </span>
+                <a
+                  href=""
+                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                >
+                  <FaRegNewspaper color="gray" />
+                  <div className="w-full flex flex-col">
+                    <div className="flex justify-between  items-center pr-5">
+                      <span className="flex-1 ms-3 whitespace-nowrap">
+                        Gallery
+                      </span>
+                    </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </Link>
             </li>
             <hr />
 
             <li>
-              <a
-                href="/contact-us"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-              >
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 18"
+              <Link to="/contact-us" onClick={handleSidebar}>
+                <a
+                  href="/"
+                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
-                  <IoIosCall />
-                </svg>
-                <span className="flex-1 ms-3 whitespace-nowrap">Contact</span>
-              </a>
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 18"
+                  >
+                    <IoIosCall />
+                  </svg>
+                  <span className="flex-1 ms-3 whitespace-nowrap">Contact</span>
+                </a>
+              </Link>
             </li>
             <hr />
           </ul>
