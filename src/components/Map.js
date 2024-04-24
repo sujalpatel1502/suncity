@@ -238,7 +238,7 @@ export default Map;
 //       selectedHotspot && selctNum == 1 ? "block" : "hidden"
 //     }`}
 //   >
-//     Switzerland
+
 //   </p>
 // </div>
 // </div>
