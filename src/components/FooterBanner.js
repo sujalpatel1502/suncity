@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const FooterBanner = () => {
   return (
     <>
-      <div className="h-[11vh] bg-[#1d1d29]  flex justify-center items-center self-center text-center max-lg:justify-start">
+      <div className="h-[15vh] bg-[#1d1d29]  flex justify-center items-center self-center text-center max-lg:justify-start">
         <div className="flex w-[78%] ml-10 h-[11vh] items-center justify-between  max-lg:flex-col max-lg:pt-4">
           <div className="pl-4">
             <p className=" text-[#7C858C]"> © Copyright 2024 by Suncity</p>

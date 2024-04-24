@@ -40,7 +40,7 @@ const Footer = () => {
               </div>
             )}
             <div className="flex flex-wrap  max-w-[1224px] max-lg:justify-start justify-evenly mt-16 ">
-              <div className="basis-full md:basis-1/4 sm:p-2 py-5 px-2 justify-center">
+              <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
                 <div className="flex mt-12 bg-white rounded-2xl p-[10px] w-[80%]">
                   <img
                     src={require("../assets/SUNCITYLOGO.png")}
@@ -59,8 +59,8 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="basis-full md:basis-1/4 sm:p-2 py-5 px-2 flex flex-col items-start md:items-center lg:items-center justify-center">
-                <div className="flex flex-row items-center">
+              <div className="basis-full md:basis-1/4 sm:p-2 p-5 flex flex-col items-start md:items-center lg:items-center justify-center">
+                <div className="flex flex-row items-center ">
                   <h4 className="text-[24px] font-semibold mt-14 text-white ">
                     Service
                   </h4>
@@ -84,7 +84,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="basis-1/4 md:basis-1/4 sm:p-2 py-5  px-2 flex flex-col items-center justify-center ">
+              <div className="basis-1/4 md:basis-1/4 sm:p-2  flex flex-col items-center justify-center p-5">
                 <div className="flex flex-row items-center">
                   <h4 className="text-[24px] font-semibold mt-10 text-white">
                     Pages
@@ -110,31 +110,31 @@ const Footer = () => {
                 </div>
               </div>
               <div className="basis-full md:basis-1/4 sm:p-2 p-5">
-                  <div className="flex flex-row items-center">
-                    <h4 className="text-[24px] font-semibold mt-12 text-white">
-                      Newsletter
-                    </h4>
-                    <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
-                  </div>
-                  <div className="mt-5">
-                    <p className="text-[#d5d5d5] text-[16px] mt-2">
-                      Subscribe our newsletter to get our
-                    </p>
-                    <p className="text-[#d5d5d5] text-[16px] ">
-                      latest update & news
-                    </p>
+                <div className="flex flex-row items-center">
+                  <h4 className="text-[24px] font-semibold mt-12 text-white">
+                    Newsletter
+                  </h4>
+                  <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
+                </div>
+                <div className="mt-5">
+                  <p className="text-[#d5d5d5] text-[16px] mt-2">
+                    Subscribe our newsletter to get our
+                  </p>
+                  <p className="text-[#d5d5d5] text-[16px] ">
+                    latest update & news
+                  </p>
 
-                    <div class="max-w-lg bg-gray-100 flex px-2 py-1 rounded-md text-left mt-8 border focus-within:border-gray-700">
-                      <input
-                        type="email"
-                        placeholder="Your Email Adress..."
-                        class="w-full text-[#333] placeholder-gray-500 outline-none bg-transparent text-sm px-4 py-3"
-                      />
-                      <div className="bg-[#4aab3d] flex justify-center items-center w-14 rounded-lg cursor-pointer">
-                        <FaLocationArrow color="#fff" />
-                      </div>
+                  <div class="max-w-lg bg-gray-100 flex px-2 py-1 rounded-md text-left mt-8 border focus-within:border-gray-700">
+                    <input
+                      type="email"
+                      placeholder="Your Email Adress..."
+                      class="w-full text-[#333] placeholder-gray-500 outline-none bg-transparent text-sm px-4 py-3"
+                    />
+                    <div className="bg-[#4aab3d] flex justify-center items-center w-14 rounded-lg cursor-pointer">
+                      <FaLocationArrow color="#fff" />
                     </div>
                   </div>
+                </div>
               </div>
             </div>
             {/* <div className="basis-full md:basis-1/4 sm:p-2 p-5">

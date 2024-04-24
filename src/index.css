@@ -402,3 +402,51 @@ body {
 /* .map-dropdown {
   z-index: unset !important;
 } */
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+@property --num-award {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+@property --num-project {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+@property --num-review {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+    --num-award: 0;
+    --num-project: 0;
+    --num-review: 0;
+  }
+  to {
+    --num: 100;
+    --num-award: 20;
+    --num-project: 5;
+    --num-review: 400;
+  }
+}
+
+/* @keyframes counter {
+  from {
+    --num-transactions: 0;
+    --num-assets: 0;
+    --num-users: 0;
+  }
+  to {
+    --num-transactions: 44;
+    --num-assets: 119;
+    --num-users: 4600;
+  }
+} */

@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const AboutCompany = () => {
   const arr = [1, 2, 3, 4];
+  const [showCounter, setShowCounter] = useState(false);
+  const componentRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (entry.isIntersecting) {
+          setShowCounter(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.5 }
+    );
+
+    observer.observe(componentRef.current);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
     <div
+      ref={componentRef}
       style={{
         backgroundImage: `url(${"https://gossip-themes.com/sunbee/assets/images/bg/experience-bg.png"})`,
         backgroundSize: "cover",
@@ -56,46 +79,52 @@ const AboutCompany = () => {
         </div>
         <div className="flex flex-1  md:pt-2 justify-center">
           <div className="w-fit">
-            <div className="mt-10 md:mt-16 grid  grid-cols-2 gap-4 lg:gap-10 xl:gap:4">
-              {arr.map((item, index) => (
-                <div
-                  className={`flex flex-col xl:w-[200px] xl:h-[200px]  p-4 lg:p-20 xl:p-5 ${
-                    index == 0 || index == 3 ? "bg-[#4aab3d]" : "bg-[#2a2a30]"
-                  } rounded-md justify-center text-center items-center my-auto`}
-                >
-                  {index == 0 ? (
-                    <span className="text-white text-3xl md:text-5xl">
-                      100+
-                    </span>
-                  ) : index == 1 ? (
-                    <span className="text-white text-3xl md:text-5xl">20+</span>
-                  ) : index == 2 ? (
-                    <span className="text-white text-3xl md:text-5xl">5k+</span>
-                  ) : (
-                    <span className="text-white text-3xl md:text-5xl">
-                      400+
-                    </span>
-                  )}
-                  {index == 0 ? (
-                    <span className="text-white text-sm md:text-xl ">
-                      Team members
-                    </span>
-                  ) : index == 1 ? (
-                    <span className="text-white text-sm md:text-xl">
-                      Winning award
-                    </span>
-                  ) : index == 2 ? (
-                    <span className="text-white text-sm md:text-xl">
-                      Complete project
-                    </span>
-                  ) : (
-                    <span className="text-white text-sm md:text-xl">
-                      Client review
-                    </span>
-                  )}
-                </div>
-              ))}
-            </div>
+            {showCounter && (
+              <div className="mt-10 md:mt-16 grid  grid-cols-2 gap-4 lg:gap-10 xl:gap:4">
+                {arr.map((item, index) => (
+                  <div
+                    className={`flex flex-col xl:w-[200px] xl:h-[200px]  p-4 lg:p-20 xl:p-5 ${
+                      index == 0 || index == 3 ? "bg-[#4aab3d]" : "bg-[#2a2a30]"
+                    } rounded-md justify-center text-center items-center my-auto`}
+                  >
+                    {index == 0 ? (
+                      <span className="text-white text-3xl md:text-5xl tabular-nums  animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)] ">
+                        <span class="sr-only">100</span>+
+                      </span>
+                    ) : index == 1 ? (
+                      <span className="text-white text-3xl md:text-5xl tabular-nums animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--num-award)] before:content-[counter(num)]">
+                        <span class="sr-only">20</span>+
+                      </span>
+                    ) : index == 2 ? (
+                      <span className="text-white text-3xl md:text-5xl tabular-nums animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--num-project)] before:content-[counter(num)]">
+                        <span class="sr-only">5</span>k+
+                      </span>
+                    ) : (
+                      <span className="text-white text-3xl md:text-5xl tabular-nums animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--num-review)] before:content-[counter(num)]">
+                        <span class="sr-only">400</span>+
+                      </span>
+                    )}
+                    {index == 0 ? (
+                      <span className="text-white text-sm md:text-xl ">
+                        Team members
+                      </span>
+                    ) : index == 1 ? (
+                      <span className="text-white text-sm md:text-xl">
+                        Winning award
+                      </span>
+                    ) : index == 2 ? (
+                      <span className="text-white text-sm md:text-xl">
+                        Complete project
+                      </span>
+                    ) : (
+                      <span className="text-white text-sm md:text-xl">
+                        Client review
+                      </span>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>

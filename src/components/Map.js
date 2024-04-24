@@ -2,7 +2,17 @@ import React, { useEffect, useState } from "react";
 import { Button, Dropdown } from "antd";
 import IndiaMap from "../assets/images/india_map_WHITE.svg";
 import MapBanner from "../assets/images/MapBanner.webp";
+import animationData from "../lotties/Fan.json";
+import Lottie from "react-lottie";
 const Map = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   const items1 = [
     {
       key: "1",
@@ -59,15 +69,16 @@ const Map = () => {
       </div>
       <div className="flex mt-2 h-[100vh] w-[100vh] relative ml-20 max-lg:ml-0 max-lg:w-fit">
         <img src={IndiaMap} className="object-contain h-full w-full" />
+
         <div
           style={{ top: "57%", left: "35%" }}
           className="lg-hotspot lg-hotspot--top-left"
         >
           <Dropdown
-            visible={true}
+            // visible={true}
             menu={{
               items: items1,
-              style: { backgroundColor: "#87AB42" },
+              style: {},
             }}
             placement="top"
             arrow
@@ -81,11 +92,10 @@ const Map = () => {
           className="lg-hotspot lg-hotspot--top-left"
         >
           <Dropdown
-            visible={true}
+            // visible={true}
             menu={{
-              style: { backgroundColor: "#87AB42" },
+              style: { zIndex: 2 },
               items: items2,
-              hidden: false,
             }}
             placement="top"
             arrow
@@ -98,9 +108,9 @@ const Map = () => {
           className="lg-hotspot lg-hotspot--top-left"
         >
           <Dropdown
-            visible={true}
+            // visible={true}
             menu={{
-              style: { backgroundColor: "#87AB42" },
+              style: {},
               items: items3,
             }}
             placement="top"
@@ -114,9 +124,9 @@ const Map = () => {
           className="lg-hotspot lg-hotspot--top-left"
         >
           <Dropdown
-            visible={true}
+            // visible={true}
             menu={{
-              style: { backgroundColor: "#87AB42", zIndex: "inherit" },
+              style: {},
               items: items4,
             }}
             placement="top"
@@ -232,3 +242,5 @@ export default Map;
 //   </p>
 // </div>
 // </div>
+
+// <Lottie options={defaultOptions} height={400} width={400} />

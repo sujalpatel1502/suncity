@@ -53,10 +53,10 @@ const Slider = () => {
   }
 
   const handleBeforeChange = (oldIndex, newIndex) => {
-    console.log("newwwwwwww", newIndex);
+    // console.log("newwwwwwww", newIndex);
     setActiveSlideIndex(newIndex);
   };
-  console.log("indexxxxxxxxxxxxxxxxx", activeSlideIndex);
+  // console.log("indexxxxxxxxxxxxxxxxx", activeSlideIndex);
 
   var settings = {
     dots: true,
@@ -73,7 +73,8 @@ const Slider = () => {
     waitForAnimate: false,
     beforeChange: handleBeforeChange,
   };
-  console.log("sosaoosaoaso", activeSlideIndex);
+  // console.log("sosaoosaoaso", activeSlideIndex);
+
   return (
     <Sliderr {...settings} className="overflow-hidden z-0 heroslider">
       <div className="max-lg:mt-0 mt-[-210px]">
