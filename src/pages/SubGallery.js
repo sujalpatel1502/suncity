@@ -4,6 +4,12 @@ import { FaArrowUp } from "react-icons/fa";
 // import data from "../data/product.json";
 
 const SubGallery = (props) => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   const location = useLocation().state;
   const [showScrollButton, setShowScrollButton] = useState(false);
   const scrollToTop = () => {

@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { GrInstallOption } from "react-icons/gr";
 import { MdGppGood } from "react-icons/md";
 import { IoTimer } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
 const Services = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <div
@@ -28,7 +34,7 @@ const Services = () => {
       <div className="flex justify-center mt-8 h-fit sm:h-fit md:h-fit lg:h-[70vh] w-full mt-10 md:mt-20">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" text-2xl font-semibold md:text-3xl justify-center">
-          Efficient, Clean Energy for Your Home or Business
+            Efficient, Clean Energy for Your Home or Business
           </div>
 
           <p className="text-[17.24px] leading-[1.8] mt-3">

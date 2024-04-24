@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Dropdown } from "antd";
-import IndiaMap from "../assets/images/india_map.svg";
+import IndiaMap from "../assets/images/india_map_WHITE.svg";
+import MapBanner from "../assets/images/MapBanner.webp";
 const Map = () => {
   const items1 = [
     {
@@ -34,7 +35,14 @@ const Map = () => {
   //   setSelectNum(index);
   // };
   return (
-    <div className="h-[150vh] max-lg:h-[95vh] w-full flex flex-col justify-center items-center mt-10 ">
+    <div
+      style={{
+        backgroundImage: `url(${MapBanner})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+      className="h-[150vh] max-lg:h-[95vh] w-full flex flex-col justify-center items-center mt-10"
+    >
       <div className="px-5 pt-10 flex flex-col justify-center items-center max-lg:items-start h-[30vh]  max-lg:w-fit max-lg:h-fit">
         <p
           className="text-3xl  md:text-5xl  text-white font-[700] "
@@ -56,9 +64,10 @@ const Map = () => {
           className="lg-hotspot lg-hotspot--top-left"
         >
           <Dropdown
-            className=""
+            visible={true}
             menu={{
               items: items1,
+              style: { backgroundColor: "#87AB42" },
             }}
             placement="top"
             arrow
@@ -72,8 +81,11 @@ const Map = () => {
           className="lg-hotspot lg-hotspot--top-left"
         >
           <Dropdown
+            visible={true}
             menu={{
+              style: { backgroundColor: "#87AB42" },
               items: items2,
+              hidden: false,
             }}
             placement="top"
             arrow
@@ -86,7 +98,9 @@ const Map = () => {
           className="lg-hotspot lg-hotspot--top-left"
         >
           <Dropdown
+            visible={true}
             menu={{
+              style: { backgroundColor: "#87AB42" },
               items: items3,
             }}
             placement="top"
@@ -100,7 +114,9 @@ const Map = () => {
           className="lg-hotspot lg-hotspot--top-left"
         >
           <Dropdown
+            visible={true}
             menu={{
+              style: { backgroundColor: "#87AB42", zIndex: "inherit" },
               items: items4,
             }}
             placement="top"

@@ -4,6 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import serviceimage1 from "../assets/images/service-5.jpg";
 import grass from "../assets/images/grass.svg";
 import windmill from "../assets/images/windmill.svg";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   return (
@@ -29,136 +30,145 @@ const Products = () => {
         {/* services cards starts  ........................................................*/}
 
         <div className="flex w-full md:max-w-[1244px]  px-2 md:px-10 justify-between	mt-5 md:mt-10 max-lg:flex-col max-lg:w-fit items-center ml-0 md:ml-14 lg:ml-14">
-          <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
-            <h3 className="font-semibold text-[20px]">
-              <span className="text-logogreen">Solar</span> Panels
-            </h3>
-            <p className="text-sm mt-2">
-              Harness the sun's energy with our high-efficiency solar panels.
-            </p>
+          <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer">
+            <Link to="/services-solarpanels">
+              <h3 className="font-semibold text-[20px]">
+                <span className="text-logogreen">Solar</span> Panels
+              </h3>
+              <p className="text-sm mt-2">
+                Harness the sun's energy with our high-efficiency solar panels.
+              </p>
 
-            <div className="mt-3">
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> Maximize Energy</span>
-              </p>
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> High Efficiency</span>
-              </p>
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> Reduce Carbon</span>
-              </p>
-            </div>
-            <div className="mt-3">
-              <img src={serviceimage1} className="w-[90%] rounded-lg" />
-            </div>
+              <div className="mt-3">
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> Maximize Energy</span>
+                </p>
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> High Efficiency</span>
+                </p>
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> Reduce Carbon</span>
+                </p>
+              </div>
+              <div className="mt-3">
+                <img src={serviceimage1} className="w-[90%] rounded-lg" />
+              </div>
+            </Link>
           </div>
 
-          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
-            <h3 className="font-semibold text-[20px]">
-              <span className="text-logogreen">Solar Water </span> Heaters
-            </h3>
-            <p className="text-sm mt-2">
-              Enjoy hot water anytime, without high electricity bills.
-            </p>
+          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer">
+            <Link to="/services-solarwaterheater">
+              <h3 className="font-semibold text-[20px]">
+                <span className="text-logogreen">Solar Water </span> Heaters
+              </h3>
+              <p className="text-sm mt-2">
+                Enjoy hot water anytime, without high electricity bills.
+              </p>
 
-            <div className="mt-3">
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> Reliable Hot Water</span>
-              </p>
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> Lower Bills</span>
-              </p>
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2">Eco-Friendly</span>
-              </p>
-            </div>
-            <div className="mt-3">
-              <img src={serviceimage1} className="w-[90%] rounded-lg" />
-            </div>
+              <div className="mt-3">
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> Reliable Hot Water</span>
+                </p>
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> Lower Bills</span>
+                </p>
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2">Eco-Friendly</span>
+                </p>
+              </div>
+              <div className="mt-3">
+                <img src={serviceimage1} className="w-[90%] rounded-lg" />
+              </div>
+            </Link>
           </div>
 
-          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
-            <h3 className="font-semibold text-[20px]">
-              <span className="text-logogreen">Solar Water </span> Pumping
-            </h3>
-            <p className="text-sm mt-2">
-              An ideal solution for irrigation and large-scale
-            </p>
+          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer">
+            <Link to="/services-solarpumping">
+              <h3 className="font-semibold text-[20px]">
+                <span className="text-logogreen">Solar Water </span> Pumping
+              </h3>
+              <p className="text-sm mt-2">
+                An ideal solution for irrigation and large-scale
+              </p>
 
-            <div className="mt-3">
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> Sustainable Farming</span>
-              </p>
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> Reduced Costs</span>
-              </p>
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> Energy Efficient</span>
-              </p>
-            </div>
-            <div className="mt-3">
-              <img src={serviceimage1} className="w-[90%] rounded-lg" />
-            </div>
+              <div className="mt-3">
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> Sustainable Farming</span>
+                </p>
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> Reduced Costs</span>
+                </p>
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> Energy Efficient</span>
+                </p>
+              </div>
+              <div className="mt-3">
+                <img src={serviceimage1} className="w-[90%] rounded-lg" />
+              </div>
+            </Link>
           </div>
 
-          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
-            <h3 className="font-semibold text-[20px]">
-              <span className="text-logogreen">Solar Street </span> Lights
-            </h3>
-            <p className="text-sm mt-2">
-              Light up your streets with our durable and cost-effective lights.
-            </p>
+          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer">
+            <Link to="/services-solarstreet">
+              <h3 className="font-semibold text-[20px]">
+                <span className="text-logogreen">Solar Street </span> Lights
+              </h3>
+              <p className="text-sm mt-2">
+                Light up your streets with our durable and cost-effective
+                lights.
+              </p>
 
-            <div className="mt-3">
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> Durable Lighting</span>
-              </p>
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto ">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2"> Cost-Effective</span>
-              </p>
-              <p className="text-sm mt-1 flex align-center">
-                <span className="text-logogreen my-auto">
-                  <FaCheckCircle />
-                </span>{" "}
-                <span className="ml-2">Weather-Resistant</span>
-              </p>
-            </div>
-            <div className="mt-3">
-              <img src={serviceimage1} className="w-[90%] rounded-lg" />
-            </div>
+              <div className="mt-3">
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> Durable Lighting</span>
+                </p>
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto ">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2"> Cost-Effective</span>
+                </p>
+                <p className="text-sm mt-1 flex align-center">
+                  <span className="text-logogreen my-auto">
+                    <FaCheckCircle />
+                  </span>{" "}
+                  <span className="ml-2">Weather-Resistant</span>
+                </p>
+              </div>
+              <div className="mt-3">
+                <img src={serviceimage1} className="w-[90%] rounded-lg" />
+              </div>
+            </Link>
           </div>
         </div>
 

@@ -213,16 +213,11 @@ const Nav = () => {
             </Link>
           </a>
 
-          <a
-            href=""
-            className=" hover:text-[#87AB42] rounded-md px-3 py-2 text-sm font-medium"
-          >
-            <Link to="/contact-us">
-              <p className="hover:text-[#87AB42] text-sm font-medium">
-                Contact
-              </p>
-            </Link>
-          </a>
+          <Link to="/contact-us">
+            <p className="hover:text-[#87AB42] text-sm font-medium rounded-md px-3 py-2">
+              Contact
+            </p>
+          </Link>
         </div>
         <div className="flex-1 px-3 py-1 flex justify-around items-center ml-16">
           <div className="justify-center items-center text-center ">

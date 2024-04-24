@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutCompany from "../components/AboutCompany";
 import Products from "../components/Products";
 import Map from "../components/Map";
@@ -8,6 +8,12 @@ import Slider from "../components/Slider";
 import RoadMap from "../components/RoadMap";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <Slider />

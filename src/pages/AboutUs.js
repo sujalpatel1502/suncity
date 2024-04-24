@@ -1,5 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <div
@@ -26,7 +32,9 @@ const AboutUs = () => {
       <div className="flex justify-center items-center">
         <div className=" px-5 md:px-9 mt-5 flex max-lg:flex-col mb-9 w-full max-w-[1224px]">
           <div className="flex-1  h-fit w-fit px-1 md:px-5">
-            <div className=" pb-5 text-2xl  font-bold">Making Clean, Green Energy accessible with Our Solar Solutions.</div>
+            <div className=" pb-5 text-2xl  font-bold">
+              Making Clean, Green Energy accessible with Our Solar Solutions.
+            </div>
 
             <div className=" pb-3 pr-3">
               <p>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { GrInstallOption } from "react-icons/gr";
 import serviceimage1 from "../assets/images/service-5.jpg";
 import { MdGppGood } from "react-icons/md";
@@ -6,6 +6,12 @@ import { IoTimer } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
 import { FaCheckCircle } from "react-icons/fa";
 const Servicespumping = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <div
@@ -30,7 +36,7 @@ const Servicespumping = () => {
       <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[28vh] w-full mt-10 md:mt-20">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
-          Solar Water Pumps for Efficient Irrigation
+            Solar Water Pumps for Efficient Irrigation
           </div>
 
           <p className="text-[17.24px] leading-[1.8]">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "react-lottie";
 import animationData from "../lotties/Solarr.json";
 import IndiaMap from "../assets/images/bigFan.svg";
@@ -11,6 +11,12 @@ const Legal = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="w-full flex justify-center items-center">
       <div className="w-full max-w-[1124px] mt-6 px-5 md:px-2">

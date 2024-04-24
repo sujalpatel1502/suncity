@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { GrInstallOption } from "react-icons/gr";
 import { MdGppGood } from "react-icons/md";
 import serviceimage1 from "../assets/images/service-5.jpg";
 import { IoTimer } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
 const Servicesstreet = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <div
@@ -29,8 +35,7 @@ const Servicesstreet = () => {
       <div className="flex justify-center mt-10 h-fit sm:h-fit md:h-fit lg:h-[36vh] w-full ">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
-          Sustainable lighting solution with the power of solar
-
+            Sustainable lighting solution with the power of solar
           </div>
 
           <p className="text-[17.24px] leading-[1.8]">
