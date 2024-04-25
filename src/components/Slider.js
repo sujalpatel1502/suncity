@@ -4,8 +4,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Sliderr from "react-slick";
+
 const Slider = () => {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+  // useEffect(() => {
+  //   setActiveSlideIndex(0);
+  // }, []);
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -73,7 +77,7 @@ const Slider = () => {
     waitForAnimate: false,
     beforeChange: handleBeforeChange,
   };
-  // console.log("sosaoosaoaso", activeSlideIndex);
+  console.log("sosaoosaoaso", activeSlideIndex);
 
   return (
     <Sliderr {...settings} className="overflow-hidden z-0 heroslider">

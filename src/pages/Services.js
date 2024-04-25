@@ -3,6 +3,7 @@ import { GrInstallOption } from "react-icons/gr";
 import { MdGppGood } from "react-icons/md";
 import { IoTimer } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
+import About from "../assets/images/AboutSuncitySolar.webp";
 const Services = () => {
   useEffect(() => {
     window.scrollTo({
@@ -14,7 +15,8 @@ const Services = () => {
     <>
       <div
         style={{
-          background: `url(${"https://themejunction.net/html/solarplus/demo/assets/images/project/video-image.jpg"})  rgba(0, 0, 0, 0.6)`,
+          backgroundImage: `url(${About})`,
+          backgroundColor: "rgba(0, 0, 0, 0.6)",
           backgroundSize: "contain",
           backgroundBlendMode: "multiply",
         }}
@@ -55,10 +57,10 @@ const Services = () => {
                 <MdGppGood size={50} className="mt-8" color="#4aab3d" />
 
                 <div className="flex flex-col">
-                  <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                  <span className="text-xl font-[500] mt-4 ml-3">
                     We always use best quality
                   </span>
-                  <p className="mt-4 ml-3 text-[#4aab3d]">
+                  <p className="mt-4 ml-3">
                     No Haggling, No Bargaining & Multiple Payment Options
                     Including Cash.
                   </p>
@@ -69,10 +71,10 @@ const Services = () => {
                 <GrInstallOption size={50} className="mt-8" color="#4aab3d" />
 
                 <div className="flex flex-col">
-                  <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                  <span className="text-xl font-[500] mt-4 ml-3">
                     We're good in quick installation
                   </span>
-                  <p className="mt-4 ml-3 text-[#4aab3d] ">
+                  <p className="mt-4 ml-3">
                     No Haggling, No Bargaining & Multiple Payment Options
                     Including Cash.
                   </p>
@@ -82,10 +84,10 @@ const Services = () => {
                 <IoTimer size={50} className="mt-8" color="#4aab3d" />
 
                 <div className="flex flex-col">
-                  <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                  <span className="text-xl font-[500] mt-4 ml-3">
                     Long last warranty
                   </span>
-                  <p className="mt-4 ml-3 text-[#4aab3d]">
+                  <p className="mt-4 ml-3">
                     No Haggling, No Bargaining & Multiple Payment Options
                     Including Cash.
                   </p>
@@ -95,10 +97,10 @@ const Services = () => {
                 <MdVerified size={50} className="mt-8" color="#4aab3d" />
 
                 <div className="flex flex-col">
-                  <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                  <span className="text-xl font-[500] mt-4 ml-3">
                     Best in class prices
                   </span>
-                  <p className="mt-4 ml-3 text-[#4aab3d]">
+                  <p className="mt-4 ml-3">
                     No Haggling, No Bargaining & Multiple Payment Options
                     Including Cash.
                   </p>

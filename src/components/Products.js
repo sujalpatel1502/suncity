@@ -1,12 +1,22 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
-
-import serviceimage1 from "../assets/images/service-5.jpg";
+import { Button, Dropdown } from "antd";
+import { FaWhatsapp } from "react-icons/fa";
+import solarpanel from "../assets/images/SolarPanels.webp";
+import solarstreetlight from "../assets/images/SolarStreetLights.webp";
+import solarwaterheater from "../assets/images/SolarWaterHeaters.webp";
+import solarwaterpumping from "../assets/images/SolarWaterPumping.webp";
 import grass from "../assets/images/grass.svg";
 import windmill from "../assets/images/windmill.svg";
 import { Link } from "react-router-dom";
 
 const Products = () => {
+  const items1 = [
+    {
+      key: "1",
+      label: "Chat With Us",
+    },
+  ];
   return (
     <>
       <div className="max-lg:container flex flex-col justify-center items-center mt-20">
@@ -28,6 +38,25 @@ const Products = () => {
         </div>
 
         {/* services cards starts  ........................................................*/}
+
+        <a
+          href="https://wa.me/919587211700"
+          class="whatsapp_float b animate-bounce"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Dropdown
+            menu={{
+              items: items1,
+            }}
+            placement="top"
+            arrow
+          >
+            <div className="flex justify-center items-center self-center text-center mt-4 max-lg:mt-2">
+              <FaWhatsapp />
+            </div>
+          </Dropdown>
+        </a>
 
         <div className="flex w-full md:max-w-[1244px]  px-2 md:px-10 justify-between	mt-5 md:mt-10 max-lg:flex-col max-lg:w-fit items-center ml-0 md:ml-14 lg:ml-14">
           <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer">
@@ -60,7 +89,7 @@ const Products = () => {
                 </p>
               </div>
               <div className="mt-3">
-                <img src={serviceimage1} className="w-[90%] rounded-lg" />
+                <img src={solarpanel} className="w-[90%] rounded-lg" />
               </div>
             </Link>
           </div>
@@ -95,7 +124,7 @@ const Products = () => {
                 </p>
               </div>
               <div className="mt-3">
-                <img src={serviceimage1} className="w-[90%] rounded-lg" />
+                <img src={solarwaterheater} className="w-[90%] rounded-lg" />
               </div>
             </Link>
           </div>
@@ -130,7 +159,7 @@ const Products = () => {
                 </p>
               </div>
               <div className="mt-3">
-                <img src={serviceimage1} className="w-[90%] rounded-lg" />
+                <img src={solarwaterpumping} className="w-[90%] rounded-lg" />
               </div>
             </Link>
           </div>
@@ -166,7 +195,7 @@ const Products = () => {
                 </p>
               </div>
               <div className="mt-3">
-                <img src={serviceimage1} className="w-[90%] rounded-lg" />
+                <img src={solarstreetlight} className="w-[90%] rounded-lg" />
               </div>
             </Link>
           </div>

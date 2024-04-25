@@ -19,7 +19,7 @@ const Legal = () => {
   }, []);
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="w-full max-w-[1124px] mt-6 px-5 md:px-2">
+      <div className="w-full max-w-[1124px] mt-6">
         <div className=" pb-5 text-2xl font-semibold md:text-3xl justify-center text-center">
           Compliance Documents
         </div>

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import About from "../assets/images/AboutSuncitySolar.webp";
 const AboutUs = () => {
   useEffect(() => {
     window.scrollTo({
@@ -10,7 +11,8 @@ const AboutUs = () => {
     <>
       <div
         style={{
-          background: `url(${"https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-container-battery-energy-storage-power-plant-system-accompanied-with-solar-panels-wind-turbine-system-situated-nature-with-mount-st-helens-background-3d-rendering.jpg"})  rgba(0, 0, 0, 0.6)`,
+          backgroundImage: `url(${About})`,
+          backgroundColor: "rgba(0, 0, 0, 0.6)",
           backgroundSize: "cover",
           backgroundBlendMode: "multiply",
         }}

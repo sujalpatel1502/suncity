@@ -84,10 +84,10 @@ const Servicesheater = () => {
               <MdGppGood size={50} className="mt-8" color="#4aab3d" />
 
               <div className="flex flex-col">
-                <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                <span className="text-xl font-[500] mt-4 ml-3 ">
                   Best in class quality for all type of usage
                 </span>
-                <p className="mt-4 ml-3 text-[#4aab3d]">
+                <p className="mt-4 ml-3">
                   No Haggling, No Bargaining & Multiple Payment Options
                   Including Cash.
                 </p>
@@ -98,10 +98,10 @@ const Servicesheater = () => {
               <GrInstallOption size={50} className="mt-8" color="#4aab3d" />
 
               <div className="flex flex-col">
-                <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                <span className="text-xl font-[500] mt-4 ml-3">
                   Quick installation & best service
                 </span>
-                <p className="mt-4 ml-3 text-[#4aab3d]">
+                <p className="mt-4 ml-3">
                   No Haggling, No Bargaining & Multiple Payment Options
                   Including Cash.
                 </p>
@@ -111,10 +111,10 @@ const Servicesheater = () => {
               <IoTimer size={50} className="mt-8" color="#4aab3d" />
 
               <div className="flex flex-col">
-                <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                <span className="text-xl font-[500] mt-4 ml-3">
                   5 Years on-site warranty
                 </span>
-                <p className="mt-4 ml-3 text-[#4aab3d]">
+                <p className="mt-4 ml-3">
                   No Haggling, No Bargaining & Multiple Payment Options
                   Including Cash.
                 </p>
@@ -124,10 +124,10 @@ const Servicesheater = () => {
               <MdVerified size={50} className="mt-8" color="#4aab3d" />
 
               <div className="flex flex-col">
-                <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                <span className="text-xl mt-4 font-[500] ml-3">
                   One-time investment (20 years life)
                 </span>
-                <p className="mt-4 ml-3 text-[#4aab3d]">
+                <p className="mt-4 ml-3">
                   No Haggling, No Bargaining & Multiple Payment Options
                   Including Cash.
                 </p>

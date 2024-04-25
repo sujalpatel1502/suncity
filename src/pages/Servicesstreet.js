@@ -144,10 +144,10 @@ const Servicesstreet = () => {
               <MdGppGood size={50} className="mt-8" color="#4aab3d" />
 
               <div className="flex flex-col">
-                <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                <span className="text-xl font-[500] mt-4 ml-3">
                   Best in class product quality
                 </span>
-                <p className="mt-4 ml-3 text-[#4aab3d]">
+                <p className="mt-4 ml-3">
                   No Haggling, No Bargaining & Multiple Payment Options
                   Including Cash.
                 </p>
@@ -158,10 +158,10 @@ const Servicesstreet = () => {
               <GrInstallOption size={50} className="mt-8" color="#4aab3d" />
 
               <div className="flex flex-col">
-                <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                <span className="text-xl font-[500] mt-4 ml-3">
                   24 hours on call instant service
                 </span>
-                <p className="mt-4 ml-3 text-[#4aab3d]">
+                <p className="mt-4 ml-3">
                   No Haggling, No Bargaining & Multiple Payment Options
                   Including Cash.
                 </p>
@@ -171,10 +171,10 @@ const Servicesstreet = () => {
               <IoTimer size={50} className="mt-8" color="#4aab3d" />
 
               <div className="flex flex-col">
-                <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                <span className="text-xl font-[500] mt-4 ml-3">
                   Pumps come with 5 years warranty
                 </span>
-                <p className="mt-4 ml-3 text-[#4aab3d]">
+                <p className="mt-4 ml-3">
                   No Haggling, No Bargaining & Multiple Payment Options
                   Including Cash.
                 </p>
@@ -184,10 +184,10 @@ const Servicesstreet = () => {
               <MdVerified size={50} className="mt-8" color="#4aab3d" />
 
               <div className="flex flex-col">
-                <span className="text-xl font-light mt-4 ml-3 text-[#4aab3d]">
+                <span className="text-xl font-[500] mt-4 ml-3">
                   1 hp to 40 hp pumps available
                 </span>
-                <p className="mt-4 ml-3 text-[#4aab3d]">
+                <p className="mt-4 ml-3">
                   No Haggling, No Bargaining & Multiple Payment Options
                   Including Cash.
                 </p>
