@@ -77,7 +77,7 @@ const Slider = () => {
     waitForAnimate: false,
     beforeChange: handleBeforeChange,
   };
-  console.log("sosaoosaoaso", activeSlideIndex);
+  // console.log("sosaoosaoaso", activeSlideIndex);
 
   return (
     <Sliderr {...settings} className="overflow-hidden z-0 heroslider">

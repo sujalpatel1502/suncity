@@ -225,11 +225,11 @@ const Nav = () => {
         </div>
         <div className="flex-1 px-3 py-1 flex justify-around items-center ml-16">
           <div className="justify-center items-center text-center ">
-            <a href="https://www.suncitysolar.in/login.aspx">
+            <Link to="/login">
               <span className="cursor-pointer hover:text-[#87AB42] mr-1">
                 Login
               </span>
-            </a>
+            </Link>
             /
             <a href="https://www.suncitysolar.in/registration.aspx">
               <span className=" ml-1 cursor-pointer hover:text-[#87AB42]">
@@ -250,3 +250,25 @@ const Nav = () => {
 };
 
 export default Nav;
+
+// <div className="flex-1 px-3 py-1 flex justify-around items-center ml-16">
+//           <div className="justify-center items-center text-center ">
+//             <a href="https://www.suncitysolar.in/login.aspx">
+//               <span className="cursor-pointer hover:text-[#87AB42] mr-1">
+//                 Login
+//               </span>
+//             </a>
+//             /
+//             <a href="https://www.suncitysolar.in/registration.aspx">
+//               <span className=" ml-1 cursor-pointer hover:text-[#87AB42]">
+//                 Register
+//               </span>
+//             </a>
+//           </div>
+//           <div className="w-[1px] h-14 bg-gray-400"></div>
+//           <div className=" flex justify-between">
+//             <div className="ml-6 rounded-lg border p-2 text-white bg-[#87AB42] cursor-pointer">
+//               GET A QUOTE
+//             </div>
+//           </div>
+//         </div>

@@ -21,6 +21,7 @@ import Legal from "./pages/Legal";
 import Gallery from "./pages/Gallery";
 import SubGallery from "./pages/SubGallery";
 import OurTeam from "./pages/OurTeam";
+import Login from "./pages/Login";
 
 const Layout = () => {
   return (
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
       {
         path: "/team",
         element: <OurTeam />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
     ],
   },

@@ -52,7 +52,7 @@ const Products = () => {
             placement="top"
             arrow
           >
-            <div className="flex justify-center items-center self-center text-center mt-4 max-lg:mt-2">
+            <div className="flex justify-center items-center self-center text-center">
               <FaWhatsapp />
             </div>
           </Dropdown>

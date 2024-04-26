@@ -87,7 +87,11 @@ const HeadBanner = () => {
         </div>
       </div>
       <hr className="mt-2" />
-      <SubNav handleSidebar={handleSidebar} showSidebar={showSidebar} />
+      <SubNav
+        handleSidebar={handleSidebar}
+        showSidebar={showSidebar}
+        setshowSidebar={setshowSidebar}
+      />
     </>
   );
 };

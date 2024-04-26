@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Dropdown, Modal, Button } from "antd";
 import { FiXCircle, FiLogOut, FiLogIn } from "react-icons/fi";
+import { MdOutlineAccountCircle } from "react-icons/md";
+import { LuLogIn } from "react-icons/lu";
 import {
   IoIosHome,
   IoMdArrowDropdown,
@@ -13,7 +15,22 @@ import { SiPowerpages } from "react-icons/si";
 import { MdOutlineMiscellaneousServices } from "react-icons/md";
 import { FaAddressCard, FaRegNewspaper } from "react-icons/fa";
 
-const SubNav = ({ showSidebar, handleSidebar }) => {
+const SubNav = ({ showSidebar, handleSidebar, setshowSidebar }) => {
+  let menuRef = useRef(null);
+  // console.log("menuRef", menuRef);
+  useEffect(() => {
+    let handleClose = (e) => {
+      // console.log("eeee", e.target);
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setshowSidebar(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClose);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClose);
+    };
+  });
   let email = localStorage.getItem("email");
   let navigate = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -152,7 +169,8 @@ const SubNav = ({ showSidebar, handleSidebar }) => {
         ]}
       ></Modal>
       <div
-        className={`mysidebar flex flex-col direction-column absolute h-screen w-2/3 lg:hide  top-0 pt-5 bg-gray-50 dark:bg-gray-800 transition ease-in-out delay-150 z-50 ${
+        ref={menuRef}
+        className={`mysidebar flex flex-col direction-column fixed h-fit w-2/3 lg:hide  top-0 pt-5 bg-gray-50 dark:bg-gray-800 transition ease-in-out delay-150 z-50 ${
           showSidebar ? "showsidebar" : "hidesidebar"
         }`}
         id="sideBar"
@@ -332,6 +350,44 @@ const SubNav = ({ showSidebar, handleSidebar }) => {
                   <span className="flex-1 ms-3 whitespace-nowrap">Contact</span>
                 </a>
               </Link>
+            </li>
+            <hr />
+            <li>
+              <a
+                onClick={handleSidebar}
+                href="https://www.suncitysolar.in/login.aspx"
+                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              >
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 18"
+                >
+                  <LuLogIn />
+                </svg>
+                <span className="flex-1 ms-3 whitespace-nowrap">Login</span>
+              </a>
+            </li>
+            <hr />
+            <li>
+              <a
+                onClick={handleSidebar}
+                href="https://www.suncitysolar.in/registration.aspx"
+                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              >
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 18"
+                >
+                  <MdOutlineAccountCircle />
+                </svg>
+                <span className="flex-1 ms-3 whitespace-nowrap">Register</span>
+              </a>
             </li>
             <hr />
           </ul>
