@@ -119,8 +119,8 @@ const Map = () => {
           </Dropdown>
         </div>
         <div
-          style={{ top: "20%", left: "34%" }}
-          className="lg-hotspot lg-hotspot--top-left"
+          // style={{ top: "20%", left: "34%" }}
+          className="lg-hotspot lg-hotspot--top-left top-[24%] left-[34%] md:top-[14%] md:left-[34%] lg:top-[14%] lg:left-[34%]"
         >
           <Dropdown
             // visible={true}

@@ -17,10 +17,10 @@ const HeadBanner = () => {
         <div className="max-lg:w-full max-w-[1224px] flex items-center justify-between">
           <div className="flex justify-between items-center max-lg:w-full px-8">
             <Link to="/">
-              <div className="cursor-pointer">
+              <div className="cursor-pointer h-[100px] w-[300px] flex justify-start items-center">
                 <img
                   src={require("../assets/SUNCITYLOGO.png")}
-                  className="max-lg:h-16 h-28"
+                  className="max-lg:h-16 object-fit"
                 />
               </div>
             </Link>

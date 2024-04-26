@@ -138,7 +138,7 @@ const Nav = () => {
   return (
     <div className="hidden lg:flex h-[10vh] flex justify-center w-full bg-white  sticky top-0 z-[1040] shadow-xl">
       <div className="w-full max-w-[1224px] flex items-center justify-between px-8">
-        <div className="flex  flex-1 justify-around">
+        <div className="flex   justify-around w-[60%]">
           <a
             href="/"
             className="hover:text-[#87AB42] rounded-md px-3 py-2 text-sm font-medium"
@@ -212,7 +212,11 @@ const Nav = () => {
               </p>
             </Link>
           </a>
-
+          <Link to="/team">
+            <p className="hover:text-[#87AB42] text-sm font-medium rounded-md px-3 py-2">
+              Our Team
+            </p>
+          </Link>
           <Link to="/contact-us">
             <p className="hover:text-[#87AB42] text-sm font-medium rounded-md px-3 py-2">
               Contact
@@ -221,13 +225,17 @@ const Nav = () => {
         </div>
         <div className="flex-1 px-3 py-1 flex justify-around items-center ml-16">
           <div className="justify-center items-center text-center ">
-            <span className="cursor-pointer hover:text-[#87AB42] mr-1">
-              Login
-            </span>
+            <a href="https://www.suncitysolar.in/login.aspx">
+              <span className="cursor-pointer hover:text-[#87AB42] mr-1">
+                Login
+              </span>
+            </a>
             /
-            <span className=" ml-1 cursor-pointer hover:text-[#87AB42]">
-              Register
-            </span>
+            <a href="https://www.suncitysolar.in/registration.aspx">
+              <span className=" ml-1 cursor-pointer hover:text-[#87AB42]">
+                Register
+              </span>
+            </a>
           </div>
           <div className="w-[1px] h-14 bg-gray-400"></div>
           <div className=" flex justify-between">

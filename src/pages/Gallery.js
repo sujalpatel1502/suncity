@@ -40,7 +40,7 @@ const Gallery = () => {
                   onMouseEnter={() => setVState(true)}
                   className={`transition-all ease-in duration-300 ${
                     vSate ? "block" : "hidden"
-                  }  absolute justify-center items-center max-lg:left-[50%] left-[33%] transform -translate-x-1/2 max-lg:top-[45%] top-[63%] bg-[#404040] border border-white p-4 w-[20vh] rounded-xl font-bold text-white cursor-pointer hover:bg-transparent`}
+                  }  absolute justify-center items-center max-lg:left-[50%] left-[33%] transform -translate-x-1/2 max-lg:top-[55%] top-[63%] bg-[#404040] border border-white p-4 w-[20vh] rounded-xl font-bold text-white cursor-pointer hover:bg-transparent`}
                 >
                   View More
                 </div>
@@ -70,7 +70,7 @@ const Gallery = () => {
                   onMouseEnter={() => setVState1(true)}
                   className={`transition-all ease-in duration-300 ${
                     vSate1 ? "block" : "hidden"
-                  }  absolute justify-center items-center left-[50%] transform -translate-x-1/2 top-[38%] bg-[#404040] border border-white p-4 w-[20vh] rounded-xl font-bold text-white cursor-pointer hover:bg-transparent`}
+                  }  absolute justify-center items-center left-[50%] transform -translate-x-1/2 top-[30%] lg:top-[36%] md:top-[30%] bg-[#404040] border border-white p-4 w-[20vh] rounded-xl font-bold text-white cursor-pointer hover:bg-transparent`}
                 >
                   View More
                 </div>

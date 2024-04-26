@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { GiQueenCrown } from "react-icons/gi";
 
 const Footer = () => {
@@ -49,68 +49,90 @@ const Footer = () => {
                 </div>
                 <div className=" flex flex-col justify-start lg:pl-4 mt-4">
                   <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                    Panchamrut Bunglows II, Sola, Ahmedabad, Gujarat 380060
+                    3 Floor, Ayushi Tower, Main pal Road, Jodhpur, Rajasthan
                   </p>
                   <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                    solarsuncity@gmail.com
+                    info@suncitysolar.in
                   </p>
                   <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d]">
-                    999 333 0000
+                    95872 11700
                   </p>
                 </div>
               </div>
               <div className="basis-full md:basis-1/4 sm:p-2 p-5 flex flex-col items-start md:items-center lg:items-center justify-center">
-                <div className="flex flex-row items-center ">
+                <div className="flex flex-row items-center">
                   <h4 className="text-[24px] font-semibold mt-14 text-white ">
                     Service
                   </h4>
                   <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
                 </div>
-                <div className="mt-5  ml-0 md:ml-10 lg:ml-10">
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    Reliability & Punctuality
-                  </p>
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    Trusted Franchise
-                  </p>
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    Warehoues Storage
-                  </p>
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    Real Time Tracking
-                  </p>
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    Transparent Pricing
-                  </p>
+                <div className="mt-5  ml-0 md:ml-6 lg:ml-6">
+                  <Link rel="noopener noreferrer" to="/services-solarpanels">
+                    <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
+                      Solar Panels
+                    </p>
+                  </Link>
+
+                  <Link to="/services-solarwaterheater">
+                    <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
+                      Solar Water Heaters
+                    </p>
+                  </Link>
+
+                  <Link to="/services-solarpumping">
+                    <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
+                      Solar Water Pumping
+                    </p>
+                  </Link>
+
+                  <Link to="/services-solarstreet">
+                    <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
+                      Solar Street Lights
+                    </p>
+                  </Link>
                 </div>
               </div>
               <div className="basis-1/4 md:basis-1/4 sm:p-2  flex flex-col items-center justify-center p-5">
-                <div className="flex flex-row items-center">
+                <div className="flex flex-row items-center pt-10">
                   <h4 className="text-[24px] font-semibold mt-10 text-white">
                     Pages
                   </h4>
                   <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-10 ml-8"></div>
                 </div>
-                <div className="mt-5 mr-6">
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    About
-                  </p>
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    New Projects
-                  </p>
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    Our History
-                  </p>
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    Contact
-                  </p>
-                  <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
-                    Blog Posts
-                  </p>
+                <div className="mt-5 mr-12">
+                  <Link to="/about-us">
+                    <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
+                      About
+                    </p>
+                  </Link>
+
+                  <Link to="/legal">
+                    <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
+                      Legal
+                    </p>
+                  </Link>
+
+                  <Link to="/gallery">
+                    <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
+                      Gallery
+                    </p>
+                  </Link>
+
+                  <Link to="/contact-us">
+                    <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
+                      Contact
+                    </p>
+                  </Link>
+
+                  <Link to="/team">
+                    <p className="text-[#d5d5d5] text-[16px] cursor-pointer hover:text-[#4aab3d] mt-2">
+                      Our Team
+                    </p>
+                  </Link>
                 </div>
               </div>
               <div className="basis-full md:basis-1/4 sm:p-2 p-5">
-                <div className="flex flex-row items-center">
+                <div className="flex flex-row items-center pt-8">
                   <h4 className="text-[24px] font-semibold mt-12 text-white">
                     Newsletter
                   </h4>

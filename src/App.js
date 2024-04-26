@@ -20,6 +20,7 @@ import Servicesstreet from "./pages/Servicesstreet";
 import Legal from "./pages/Legal";
 import Gallery from "./pages/Gallery";
 import SubGallery from "./pages/SubGallery";
+import OurTeam from "./pages/OurTeam";
 
 const Layout = () => {
   return (
@@ -79,6 +80,10 @@ const router = createBrowserRouter([
       {
         path: "/sub-gallery",
         element: <SubGallery />,
+      },
+      {
+        path: "/team",
+        element: <OurTeam />,
       },
     ],
   },
