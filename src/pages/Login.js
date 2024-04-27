@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "react-lottie";
 import animationData from "../lotties/Solarr.json";
 const Login = () => {
@@ -10,6 +10,12 @@ const Login = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div class="py-16">
       <div class="flex bg-white rounded-lg shadow-lg  overflow-hidden mx-auto max-w-sm lg:max-w-4xl border">

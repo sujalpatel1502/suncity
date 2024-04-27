@@ -61,7 +61,7 @@ const Footer = () => {
               </div>
               <div className="basis-full md:basis-1/4 sm:p-2 p-5 flex flex-col items-start md:items-center lg:items-center justify-center">
                 <div className="flex flex-row items-center">
-                  <h4 className="text-[24px] font-semibold mt-14 text-white ">
+                  <h4 className="text-[24px] font-semibold mt-8 md:mt-14 lg:mt-14 text-white ">
                     Service
                   </h4>
                   <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>
@@ -93,7 +93,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="basis-1/4 md:basis-1/4 sm:p-2  flex flex-col items-center justify-center p-5">
-                <div className="flex flex-row items-center pt-10">
+                <div className="flex flex-row items-center pt-0 md:pt-10 lg:pt-10">
                   <h4 className="text-[24px] font-semibold mt-10 text-white">
                     Pages
                   </h4>
@@ -132,8 +132,8 @@ const Footer = () => {
                 </div>
               </div>
               <div className="basis-full md:basis-1/4 sm:p-2 p-5">
-                <div className="flex flex-row items-center pt-8">
-                  <h4 className="text-[24px] font-semibold mt-12 text-white">
+                <div className="flex flex-row items-center pt-0 md:pt-8 lg:pt-8">
+                  <h4 className="text-[24px] font-semibold mt-8 md:mt-12 lg:mt-12 text-white">
                     Newsletter
                   </h4>
                   <div className="bg-[#4aab3d] h-1 w-8 justify-center items-center self-center mt-14 ml-8"></div>

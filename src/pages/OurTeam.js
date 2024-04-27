@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const OurTeam = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <section class="bg-white dark:bg-gray-900 flex justify-center items-center">
       <div className="w-full max-w-[1224px] pl-0 md:pl-10 lg:pl-10">

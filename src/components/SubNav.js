@@ -15,14 +15,33 @@ import { SiPowerpages } from "react-icons/si";
 import { MdOutlineMiscellaneousServices } from "react-icons/md";
 import { FaAddressCard, FaRegNewspaper } from "react-icons/fa";
 
-const SubNav = ({ showSidebar, handleSidebar, setshowSidebar }) => {
+const SubNav = ({
+  showSidebar,
+  handleSidebar,
+  setshowSidebar,
+  handleGlitch,
+  errRef,
+  handleErr,
+  change,
+}) => {
   let menuRef = useRef(null);
-  // console.log("menuRef", menuRef);
+  useEffect(() => {
+    if (errRef.current == true) {
+      setshowSidebar(true);
+    } else if (errRef.current == false) {
+      setshowSidebar(false);
+    }
+  }, [change]);
+
   useEffect(() => {
     let handleClose = (e) => {
-      // console.log("eeee", e.target);
-      if (menuRef.current && !menuRef.current.contains(e.target)) {
-        setshowSidebar(false);
+      if (!showSidebar && errRef.current) {
+        errRef.current = false;
+      }
+      if (showSidebar) {
+        if (menuRef.current && !menuRef.current.contains(e.target)) {
+          setshowSidebar(false);
+        }
       }
     };
     document.addEventListener("mousedown", handleClose);

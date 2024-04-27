@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { FaFacebook, FaInstagram, FaPinterestP } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LuPhoneCall } from "react-icons/lu";
@@ -7,9 +7,20 @@ import SubNav from "./SubNav";
 import { Link } from "react-router-dom";
 
 const HeadBanner = () => {
+  let errRef = useRef(false);
   const [showSidebar, setshowSidebar] = useState(false);
+
+  const [change, setChange] = useState(0);
   const handleSidebar = () => {
     setshowSidebar(!showSidebar);
+  };
+  const handleGlitch = () => {
+    errRef.current = !errRef.current;
+    setChange(change + 1);
+  };
+  const handleErr = () => {
+    handleSidebar();
+    handleGlitch();
   };
   return (
     <>
@@ -17,7 +28,7 @@ const HeadBanner = () => {
         <div className="max-lg:w-full max-w-[1224px] flex items-center justify-between">
           <div className="flex justify-between items-center max-lg:w-full px-8">
             <Link to="/">
-              <div className="cursor-pointer h-[100px] w-[300px] flex justify-start items-center">
+              <div className="cursor-pointer h-[100px] w-[210px] md:w-[300px] lg:w-[300px] flex justify-start items-center">
                 <img
                   src={require("../assets/SUNCITYLOGO.png")}
                   className="max-lg:h-16 object-fit"
@@ -26,7 +37,7 @@ const HeadBanner = () => {
             </Link>
 
             <div className="hidden max-lg:block basis-1/2 text-right py-2 navmenubar items-center justify-center">
-              <button className="" type="button" onClick={handleSidebar}>
+              <button className="" type="button" onClick={handleErr}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -91,6 +102,10 @@ const HeadBanner = () => {
         handleSidebar={handleSidebar}
         showSidebar={showSidebar}
         setshowSidebar={setshowSidebar}
+        handleGlitch={handleGlitch}
+        errRef={errRef}
+        handleErr={handleErr}
+        change={change}
       />
     </>
   );
