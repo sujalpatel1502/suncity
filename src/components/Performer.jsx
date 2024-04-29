@@ -43,7 +43,7 @@ const Performer = () => {
           justifyContent: "center",
           alignItems: "center",
           marginLeft: "18px",
-          zIndex: 50,
+          zIndex: 5,
           borderRadius: "25px",
         }}
         onClick={onClick}
