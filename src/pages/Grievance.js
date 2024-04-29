@@ -54,7 +54,7 @@ const Grievance = () => {
                     ></textarea>
                     <ReCAPTCHA
                       className=""
-                      sitekey="6LckasopAAAAAJiUxbWqoM6aytXShlIKWeR3HQ0v"
+                      sitekey="6LfCbMopAAAAAE3op5m00LjSwoUA1M3HwwOBcaZO"
                       ref={captchaRef}
                     />
                     <button
