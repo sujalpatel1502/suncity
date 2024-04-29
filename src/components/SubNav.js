@@ -4,6 +4,7 @@ import { FiXCircle, FiLogOut, FiLogIn } from "react-icons/fi";
 import { MdOutlineAccountCircle } from "react-icons/md";
 import { LuLogIn } from "react-icons/lu";
 import { IoMdInformationCircleOutline } from "react-icons/io";
+import { AiOutlineTeam } from "react-icons/ai";
 import {
   IoIosHome,
   IoMdArrowDropdown,
@@ -404,6 +405,28 @@ const SubNav = ({
                   </svg>
                   <span className="flex-1 ms-3 whitespace-nowrap">
                     Grievance Cell
+                  </span>
+                </a>
+              </Link>
+            </li>
+            <hr />
+            <li>
+              <Link to="/team" onClick={handleSidebar}>
+                <a
+                  href=""
+                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                >
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 18"
+                  >
+                    <AiOutlineTeam />
+                  </svg>
+                  <span className="flex-1 ms-3 whitespace-nowrap">
+                    Our Team
                   </span>
                 </a>
               </Link>
