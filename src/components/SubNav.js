@@ -3,6 +3,7 @@ import { Dropdown, Modal, Button } from "antd";
 import { FiXCircle, FiLogOut, FiLogIn } from "react-icons/fi";
 import { MdOutlineAccountCircle } from "react-icons/md";
 import { LuLogIn } from "react-icons/lu";
+import { IoMdInformationCircleOutline } from "react-icons/io";
 import {
   IoIosHome,
   IoMdArrowDropdown,
@@ -253,7 +254,10 @@ const SubNav = ({
                 <div className="font-semibold text-sm flex flex-col justify-center items-center w-44 gap-5 text-black">
                   {Pagesitems.map((data) => (
                     <div className=" flex flex-col text-start w-full ml-7">
-                      <p className="" onClick={() => handleSidebar()}>
+                      <p
+                        className="dark:text-white"
+                        onClick={() => handleSidebar()}
+                      >
                         {data.label}
                       </p>
                     </div>
@@ -290,7 +294,12 @@ const SubNav = ({
                 <div className="font-semibold text-sm flex flex-col justify-center items-center w-44 gap-5 text-black">
                   {ServicesItems.map((data) => (
                     <div className=" flex flex-col text-start w-full ml-7">
-                      <p onClick={() => handleSidebar()}>{data.label}</p>
+                      <p
+                        className="dark:text-white"
+                        onClick={() => handleSidebar()}
+                      >
+                        {data.label}
+                      </p>
                     </div>
                   ))}
                 </div>
@@ -323,7 +332,12 @@ const SubNav = ({
                 <div className="font-semibold text-sm flex flex-col justify-center items-center w-44 gap-5 text-black">
                   {PortfolioItems.map((data) => (
                     <div className=" flex flex-col text-start w-full ml-7">
-                      <p onClick={() => handleSidebar()}>{data.label}</p>
+                      <p
+                        className="dark:text-white"
+                        onClick={() => handleSidebar()}
+                      >
+                        {data.label}
+                      </p>
                     </div>
                   ))}
                 </div>
@@ -356,7 +370,7 @@ const SubNav = ({
             <li>
               <Link to="/contact-us" onClick={handleSidebar}>
                 <a
-                  href="/"
+                  href=""
                   className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
                   <svg
@@ -369,6 +383,28 @@ const SubNav = ({
                     <IoIosCall />
                   </svg>
                   <span className="flex-1 ms-3 whitespace-nowrap">Contact</span>
+                </a>
+              </Link>
+            </li>
+            <hr />
+            <li>
+              <Link to="/grievance" onClick={handleSidebar}>
+                <a
+                  href=""
+                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                >
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 18"
+                  >
+                    <IoMdInformationCircleOutline />
+                  </svg>
+                  <span className="flex-1 ms-3 whitespace-nowrap">
+                    Grievance Cell
+                  </span>
                 </a>
               </Link>
             </li>

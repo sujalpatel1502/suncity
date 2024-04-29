@@ -7,9 +7,6 @@ const Grievance = () => {
       behavior: "smooth",
     });
   }, []);
-  // 6LdiH8kpAAAAAArpBkL1SNPmQ5InCYKNkbWjk-aq  site key
-
-  // 6LdiH8kpAAAAADpJiE6ce1U4p_vlU-2e64Bc2wqe  secret key
   const captchaRef = useRef(null);
   const handleSubmit = (e) => {
     // console.log("====================================");
@@ -57,7 +54,7 @@ const Grievance = () => {
                     ></textarea>
                     <ReCAPTCHA
                       className=""
-                      sitekey="6LftI8kpAAAAADkUbmYftNc-u8VrLBJRLvDHwBFu"
+                      sitekey="6LckasopAAAAAJiUxbWqoM6aytXShlIKWeR3HQ0v"
                       ref={captchaRef}
                     />
                     <button

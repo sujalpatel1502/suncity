@@ -5,6 +5,7 @@ import { MdGppGood } from "react-icons/md";
 import { IoTimer } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
 import { FaCheckCircle } from "react-icons/fa";
+import SolarPumping from "../assets/images/SolarWaterPumpingSystem.webp";
 const Servicespumping = () => {
   useEffect(() => {
     window.scrollTo({
@@ -16,8 +17,9 @@ const Servicespumping = () => {
     <>
       <div
         style={{
-          background: `url(${"https://themejunction.net/html/solarplus/demo/assets/images/project/video-image.jpg"})  rgba(0, 0, 0, 0.6)`,
-          backgroundSize: "contain",
+          backgroundImage: `url(${SolarPumping})`,
+          backgroundColor: "rgba(0, 0, 0, 0.6)",
+          backgroundSize: "cover",
           backgroundBlendMode: "multiply",
         }}
         className="px-2 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"

@@ -17,7 +17,7 @@ const Services = () => {
         style={{
           backgroundImage: `url(${About})`,
           backgroundColor: "rgba(0, 0, 0, 0.6)",
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           backgroundBlendMode: "multiply",
         }}
         className=" px-5 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"

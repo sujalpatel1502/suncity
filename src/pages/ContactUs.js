@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import Contact from "../assets/images/Contact.webp";
 import {
   Container,
   Paper,
@@ -71,7 +72,8 @@ const ContactUs = () => {
     <>
       <div
         style={{
-          background: `url(${"https://themes.pixelwars.org/energify/demo-01/wp-content/uploads/sites/2/2023/07/modern-container-battery-energy-storage-power-plant-system-accompanied-with-solar-panels-wind-turbine-system-situated-nature-with-mount-st-helens-background-3d-rendering.jpg"})  rgba(0, 0, 0, 0.6)`,
+          backgroundImage: `url(${Contact})`,
+          backgroundColor: "rgba(0, 0, 0, 0.6)",
           backgroundSize: "cover",
           backgroundBlendMode: "multiply",
         }}

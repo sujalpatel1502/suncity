@@ -3,6 +3,7 @@ import { GrInstallOption } from "react-icons/gr";
 import { MdGppGood } from "react-icons/md";
 import { IoTimer } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
+import SolarWater from "../assets/images/SolarWaterHeater.webp";
 const Servicesheater = () => {
   useEffect(() => {
     window.scrollTo({
@@ -14,8 +15,9 @@ const Servicesheater = () => {
     <>
       <div
         style={{
-          background: `url(${"https://themejunction.net/html/solarplus/demo/assets/images/project/video-image.jpg"})  rgba(0, 0, 0, 0.6)`,
-          backgroundSize: "contain",
+          backgroundImage: `url(${SolarWater})`,
+          backgroundColor: "rgba(0, 0, 0, 0.6)",
+          backgroundSize: "cover",
           backgroundBlendMode: "multiply",
         }}
         className="px-2 md:px-28 w-full pt-7 font-bold text-2xl  h-[60vh] max-lg:h-[40vh] flex flex-col justify-center items-center"
