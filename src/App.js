@@ -22,6 +22,8 @@ import Gallery from "./pages/Gallery";
 import SubGallery from "./pages/SubGallery";
 import OurTeam from "./pages/OurTeam";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Grievance from "./pages/Grievance";
 
 const Layout = () => {
   return (
@@ -89,6 +91,14 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
+      },
+      {
+        path: "/register",
+        element: <Register />,
+      },
+      {
+        path: "/grievance",
+        element: <Grievance />,
       },
     ],
   },

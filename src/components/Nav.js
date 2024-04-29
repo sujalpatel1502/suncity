@@ -138,7 +138,7 @@ const Nav = () => {
   return (
     <div className="hidden lg:flex h-[10vh] flex justify-center w-full bg-white  sticky top-0 z-[1040] shadow-xl">
       <div className="w-full max-w-[1224px] flex items-center justify-between px-8">
-        <div className="flex   justify-around w-[60%]">
+        <div className="flex   justify-around w-[63%]">
           <a
             href="/"
             className="hover:text-[#87AB42] rounded-md px-3 py-2 text-sm font-medium"
@@ -215,6 +215,11 @@ const Nav = () => {
           <Link to="/team">
             <p className="hover:text-[#87AB42] text-sm font-medium rounded-md px-3 py-2">
               Our Team
+            </p>
+          </Link>
+          <Link to="/grievance">
+            <p className="hover:text-[#87AB42] text-sm font-medium rounded-md px-3 py-2">
+              Grievance Cell
             </p>
           </Link>
           <Link to="/contact-us">

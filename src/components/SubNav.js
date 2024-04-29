@@ -322,7 +322,9 @@ const SubNav = ({
               {showPortOptions && (
                 <div className="font-semibold text-sm flex flex-col justify-center items-center w-44 gap-5 text-black">
                   {PortfolioItems.map((data) => (
-                    <p onClick={() => handleSidebar()}>{data.label}</p>
+                    <div className=" flex flex-col text-start w-full ml-7">
+                      <p onClick={() => handleSidebar()}>{data.label}</p>
+                    </div>
                   ))}
                 </div>
               )}
