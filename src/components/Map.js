@@ -103,8 +103,8 @@ const Map = () => {
         </div>
 
         <div
-          style={{ top: "37%", left: "33%" }}
-          className="lg-hotspot lg-hotspot--top-left"
+          // style={{ top: "37%", left: "33%" }}
+          className="lg-hotspot lg-hotspot--top-left top-[37%] left-[33%] lg:top-[37%] lg:left-[33%] md:left-[33%] md:top-[43%]"
         >
           <Dropdown
             // visible={true}
@@ -120,7 +120,7 @@ const Map = () => {
         </div>
         <div
           // style={{ top: "20%", left: "34%" }}
-          className="lg-hotspot lg-hotspot--top-left top-[24%] left-[34%] md:top-[14%] md:left-[34%] lg:top-[14%] lg:left-[34%]"
+          className="lg-hotspot lg-hotspot--top-left top-[24%] left-[34%] md:top-[34%] md:left-[34%] lg:top-[14%] lg:left-[34%]"
         >
           <Dropdown
             // visible={true}

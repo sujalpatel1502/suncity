@@ -110,7 +110,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[80vh] w-full mt-8 md:mt-0 lg:mt-0 mb-10">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[80vh] w-full mt-8 md:mt-8 lg:mt-0 mb-10">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className="pb-3 text-2xl font-semibold md:text-3xl justify-center">
             Maintenance

@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
               </div>
             )}
-            <div className="flex flex-wrap  max-w-[1224px] max-lg:justify-start justify-evenly mt-16 ">
+            <div className="flex flex-wrap  max-w-[1224px] sm:justify-start md:justify-evenly lg:justify-evenly mt-16">
               <div className="basis-full md:basis-1/4 sm:p-2 p-5 justify-center">
                 <div className="flex mt-12 bg-white rounded-2xl p-[10px] w-[80%]">
                   <img
@@ -93,7 +93,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="basis-1/4 md:basis-1/4 sm:p-2  flex flex-col items-center justify-center p-5">
-                <div className="flex flex-row items-center pt-0 md:pt-10 lg:pt-10">
+                <div className="flex flex-row items-center pt-0 md:pt-6 lg:pt-10">
                   <h4 className="text-[24px] font-semibold mt-10 text-white">
                     Pages
                   </h4>
@@ -132,7 +132,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="basis-full md:basis-1/4 sm:p-2 p-5">
-                <div className="flex flex-row items-center pt-0 md:pt-8 lg:pt-8">
+                <div className="flex flex-row items-center pt-0 md:pt-4 lg:pt-8">
                   <h4 className="text-[24px] font-semibold mt-8 md:mt-12 lg:mt-12 text-white">
                     Newsletter
                   </h4>

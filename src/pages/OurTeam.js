@@ -16,7 +16,7 @@ const OurTeam = () => {
               Our Team
             </h2>
           </div>
-          <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+          <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-1 lg:grid-cols-2">
             <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <img
                 class="rounded-lg sm:rounded-none sm:rounded-l-lg h-[280px] w-[310px] object-fill"

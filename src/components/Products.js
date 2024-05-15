@@ -59,7 +59,7 @@ const Products = () => {
         </a>
 
         <div className="flex w-full md:max-w-[1244px]  px-2 md:px-10 justify-between	mt-5 md:mt-10 max-lg:flex-col max-lg:w-fit items-center ml-0 md:ml-14 lg:ml-14">
-          <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer">
+          <div className="lg:w-[24%] sm:h-[365px] lg:h-[365px]  max-lg:mt-8 sm:w-fit md:w-full border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer md:h-[395px]">
             <Link to="/services-solarpanels">
               <h3 className="font-semibold text-[20px]">
                 <span className="text-logogreen">Solar</span> Panels
@@ -94,7 +94,7 @@ const Products = () => {
             </Link>
           </div>
 
-          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer">
+          <div className="lg:w-[24%] sm:h-[365px] lg:h-[365px]  sm:w-fit max-lg:mt-8 md:w-full border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer md:h-[395px]">
             <Link to="/services-solarwaterheater">
               <h3 className="font-semibold text-[20px]">
                 <span className="text-logogreen">Solar Water </span> Heaters
@@ -129,7 +129,7 @@ const Products = () => {
             </Link>
           </div>
 
-          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer">
+          <div className="lg:w-[24%] sm:h-[365px] lg:h-[365px]  sm:w-fit md:w-full max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer md:h-[395px]">
             <Link to="/services-solarpumping">
               <h3 className="font-semibold text-[20px]">
                 <span className="text-logogreen">Solar Water </span> Pumping
@@ -164,7 +164,7 @@ const Products = () => {
             </Link>
           </div>
 
-          <div className="w-[24%] h-[365px] max-lg:w-fit max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer">
+          <div className="lg:w-[24%] sm:h-[365px] lg:h-[365px] sm:w-fit md:w-full max-lg:mt-8 border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg cursor-pointer md:h-[395px]">
             <Link to="/services-solarstreet">
               <h3 className="font-semibold text-[20px]">
                 <span className="text-logogreen">Solar Street </span> Lights

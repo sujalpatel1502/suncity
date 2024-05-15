@@ -117,7 +117,7 @@ const Servicesstreet = () => {
               </div>
             </div>
 
-            <div className="w-[24%] h-[365px] max-lg:mt-8 max-lg:w-fit border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
+            <div className="w-[24%] h-[365px] max-lg:mt-8 sm:w-fit md:w-full border-[1px] border-[#c5fdd9] hover:border-logogreen hover:border-[1px] px-5 py-8 transition-all ease-in duration-300 rounded-lg">
               <img
                 src="https://m.media-amazon.com/images/I/61+hBo7FlpL._AC_SX679_.jpg"
                 className="w-[300px] h-[150px] rounded-lg"
@@ -136,7 +136,7 @@ const Servicesstreet = () => {
         </div>
       </div>
 
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-8 md:mt-0 lg:mt-0">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-8 md:mt-8 lg:mt-0">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className="text-2xl font-semibold md:text-3xl justify-center">
             Why choose us?
@@ -198,7 +198,7 @@ const Servicesstreet = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full mt-8 md:mt-0 lg:mt-0 mb-8 md:mb-0 lg:mb-0">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full mt-8 md:mt-8 lg:mt-0 mb-8 md:mb-8 lg:mb-0">
         <div className="w-full max-w-[1124px] flex-col  px-5 md:px-2">
           <div className=" pb-5  text-2xl font-semibold md:text-3xl justify-center">
             Advantages

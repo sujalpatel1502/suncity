@@ -55,7 +55,7 @@ const Servicespumping = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[580px] w-full mt-5 md:mt-0 lg:mt-0 ">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[580px] w-full mt-5 md:mt-4 lg:mt-0 ">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2 ">
           <div className=" pb-5 mt-2 text-2xl font-semibold md:text-3xl justify-center">
             Solar pumping system consist of 3 main parts:
@@ -122,7 +122,7 @@ const Servicespumping = () => {
         </div>
       </div>
 
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-8 md:mt-0 lg:mt-0">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[45vh] w-full mt-8 md:mt-8 lg:mt-0">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className="text-2xl font-semibold md:text-3xl justify-center">
             Why choose us?
@@ -185,7 +185,7 @@ const Servicespumping = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full mt-8 md:mt-0 lg:mt-0 mb-8 md:mb-0 lg:mb-0">
+      <div className="flex justify-center h-fit sm:h-fit md:h-fit lg:h-[30vh] w-full mt-8 md:mt-5 lg:mt-0 mb-8 md:mb-5 lg:mb-0">
         <div className="w-full max-w-[1124px] flex-col px-5 md:px-2">
           <div className=" pb-5  text-2xl font-semibold md:text-3xl justify-center">
             Advantages
